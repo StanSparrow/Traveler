@@ -1,0 +1,2002 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="7e84fae2-7e53-4b27-a773-302742ce4b1c"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="70904611-b940-4a90-ac78-80bb8ab370c6">
+      <profileInstance
+        Id="ca96974b-9cce-43a7-b5f8-8807adc8e067"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="b3aa16dd-53e2-4170-b4be-be1fcb9a62f8"
+        LastKnownName="NmspTraveler"
+        LastKnownLocation="Package_0525.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="18d24fa6-06ad-4da0-ab88-23de1447d53d"
+        LastKnownName="System"
+        LastKnownLocation="Package1_0525.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6708acf8-a7a1-43b2-8ef0-efe3c6c596d1"
+        LastKnownName="Npgsql"
+        LastKnownLocation="Package_0535.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="cc2a17d2-83b1-42cf-aad7-04c1ded1798d"
+        LastKnownName="Traveler"
+        LastKnownLocation="Package_0537.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="291cc652-7fef-4ffb-9530-4416e7893008"
+        name="Driver"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="219d1ff5-d372-4584-a434-b8a9f0d081b2"
+            isDerived="false"
+            sourceEndRoleName="Driver"
+            targetEndRoleName="Login"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4124f8d4-aef9-4cfe-a595-4c938dfe8434"
+              LastKnownName="Login"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="88aa47db-17da-435f-8fa6-fdeb316c8d87"
+                  name="Driver"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1ea53c90-7f72-4204-a6ce-252a1d6e70b9"
+                  name="Login"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a7c245c2-efd3-4975-b2ac-cb66718ff5ab"
+            isDerived="false"
+            sourceEndRoleName="Driver"
+            targetEndRoleName="Login in"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ddbd2126-adff-48c2-aa33-dd4a00adc2df"
+              LastKnownName="Login in"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="441a231a-8dd3-49f7-b719-143022fb79a2"
+                  name="Driver"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4662a3ad-188f-4009-874a-3eb9f60f71c2"
+                  name="Login in"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="19f0b2a3-3b1a-4bb0-b6a3-b6cb924a84d4"
+            isDerived="false"
+            sourceEndRoleName="Driver"
+            targetEndRoleName="View trip information"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="34e1bcb7-b2da-4325-895c-e5289e5a5fd7"
+              LastKnownName="View trip information"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5cf9863b-1357-4fdb-8360-b159a0ca57c7"
+                  name="Driver"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2af18ba4-12c0-45e4-b36c-03807c147c43"
+                  name="View trip information"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="df6ff0b0-4aff-42c0-9b47-e741ad7c35d7"
+            isDerived="false"
+            sourceEndRoleName="Driver"
+            targetEndRoleName="View vehicle schedules"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3739ddb0-5404-4c06-baf1-2144a6b3a359"
+              LastKnownName="View vehicle schedules"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1b57905e-78da-4848-ac13-7e624bbd74d2"
+                  name="Driver"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="14c6ae4f-cb3f-4b85-97c1-993efb2ef192"
+                  name="View vehicle schedules"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="273da3aa-1934-426f-9317-572c6352c970"
+        name="Admin"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="42d057f7-ee34-4c0d-9934-fc23f743290b"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Login"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a7ba08ad-0cd7-493f-8e91-d5e23fa4f762"
+              LastKnownName="Login"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7bf68ba9-1cc6-4a04-9c12-c830cfe428bc"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e60408ab-95ee-40d4-9e44-79e7ae9c6272"
+                  name="Login"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cd3c82ca-d502-482f-8ebd-7b41b7bed550"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Login as a Admin"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ddbd2126-adff-48c2-aa33-dd4a00adc2df"
+              LastKnownName="Login in"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2cae1dcd-1560-43a9-a1e9-35879a205ff3"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f0282340-c706-479b-a179-dbf5736ee48e"
+                  name="Login as a Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0f418395-a21a-453e-98f7-0ec4f2f62a0e"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="View trip information"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="34e1bcb7-b2da-4325-895c-e5289e5a5fd7"
+              LastKnownName="View trip information"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a62edaf-077b-4038-8835-b1e781c4dc4d"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3216ee44-c00a-454a-b26b-41a1b29936b2"
+                  name="View trip information"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b4106031-0051-4a64-857a-0c900e58c198"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="View vehicle schedules"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3739ddb0-5404-4c06-baf1-2144a6b3a359"
+              LastKnownName="View vehicle schedules"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b3c1b119-0c39-432a-a43f-bc5c2642e6da"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="668a2f5f-45cf-4e21-ab25-d5e80db48bfd"
+                  name="View vehicle schedules"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8c15ffe4-e379-4ebc-af67-69df2c4e4fdc"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Form ticket"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8c6b96b4-fc47-407d-b41a-48ebdf9ce793"
+              LastKnownName="Form ticket"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6a192f97-cdd0-4274-8d01-b88c9278715e"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4b871d42-5928-4a99-ad5c-363685d7118f"
+                  name="Form ticket"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c0a75998-4b92-427c-8b7c-35428b1e0a63"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Manage routes"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="84ec4e05-74ed-40d0-a164-c8c3a2fcb6a5"
+              LastKnownName="Manage routes"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9ca1386b-15f5-4529-b891-6f2129e745ae"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1c7b5069-70fd-4e5f-8413-41a38961a0ed"
+                  name="Manage routes"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9aaeb232-75e7-4d8a-afd8-ddf216e95d1a"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Manage trips"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9cd40ee3-0c79-43a2-b53b-2e754f20f82f"
+              LastKnownName="Manage trips"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2bd29c1c-4227-41b4-a60c-b069d88a259e"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="858311a4-8e54-47a5-b19e-da2ddd61550b"
+                  name="Manage trips"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="2075ef72-b1c9-48d7-8a9d-c7bcf15a4fa8"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Manage settings"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d00e1427-741f-4f6a-afe1-8c9b54f0027a"
+              LastKnownName="Manage settings"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="75cf3025-ce2d-4276-b98e-ac911aea41d1"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ef0fdae1-6bbe-49ad-9d32-035aac25eac1"
+                  name="Manage settings"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6327dc71-e44b-4dea-94d0-a703afa7046f"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="View passengers"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="668b4b68-8907-4c52-a8a6-20a8f39fcabd"
+              LastKnownName="View passengers"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="047c9c56-1144-4552-bc13-6fa2a63f5bb4"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="476c9fcd-b2d8-4b45-a1ae-4313b2d60dea"
+                  name="View passengers"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="c96fce23-23f9-4a8f-8a4d-785708a42732"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Manage drivers"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e8927519-e1de-477d-ba3f-99adbf535636"
+              LastKnownName="Manage drivers"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ed87a42b-9221-4821-9c60-06e8c74e8846"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bf639f2d-5aaf-425f-b423-ec3ec4c85573"
+                  name="Manage drivers"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="34621f4f-8d7a-449b-be84-02ca5ff9f518"
+            isDerived="false"
+            sourceEndRoleName="Admin"
+            targetEndRoleName="Manage vehicles"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="10b12f49-2ae6-4528-b71a-57611accc2ab"
+              LastKnownName="Manage vehicles"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c51a55b5-7a84-4cb4-981e-39d3bc6f839b"
+                  name="Admin"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1065eba8-2b7b-4c83-87a4-7f21066143d6"
+                  name="Manage vehicles"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="33c2a56b-eeaa-4e82-a2f9-96e15bbfb676"
+        name="Manager"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="2df0bdec-1678-48ca-ab2f-82b60c653ed7"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="Login"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a405a468-a144-4bf7-bfc4-743be54d1dad"
+              LastKnownName="Login"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="824d4edd-0aaa-4723-861a-6d7642a19234"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f2ace4d-d0c7-41f8-8475-930e31e89a7c"
+                  name="Login"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cfe2b0d0-5586-435e-b999-49b015755ef9"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="Login in"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ddbd2126-adff-48c2-aa33-dd4a00adc2df"
+              LastKnownName="Login in"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c6e80795-7ec9-4469-af5f-929d96d5e936"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="69739b5e-231b-4c44-8bf3-115281898616"
+                  name="Login in"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8ab9ad95-3600-41f8-a368-f41f13fd2f0c"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="View trip information"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="34e1bcb7-b2da-4325-895c-e5289e5a5fd7"
+              LastKnownName="View trip information"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c949ac87-6105-4f35-b71d-097b40c1cb5f"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7713e862-bd6c-4000-8f49-eaaf4f8adaaa"
+                  name="View trip information"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a4210f03-dda9-41f4-b026-814d8c34237f"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="View vehicle schedules"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3739ddb0-5404-4c06-baf1-2144a6b3a359"
+              LastKnownName="View vehicle schedules"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f6d16930-a661-4bda-808f-35aa2bb08af9"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3b93bac2-5122-4073-a1d4-c9ca805cc598"
+                  name="View vehicle schedules"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="717564fa-747e-4ded-a334-01fd9b96b460"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="Form ticket"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8c6b96b4-fc47-407d-b41a-48ebdf9ce793"
+              LastKnownName="Form ticket"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c07fdb20-ac07-44b8-9ce6-f426f9ec2026"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d15bc59-187c-4001-b92e-9d6951e4915a"
+                  name="Form ticket"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5277330e-15e1-49b5-9d97-92f89f0f900b"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="Manage routes"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="84ec4e05-74ed-40d0-a164-c8c3a2fcb6a5"
+              LastKnownName="Manage routes"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="778a171a-bbbd-4ae4-8d23-06cfb59b6b44"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f5bb541e-3f80-4434-9a99-bad17479800e"
+                  name="Manage routes"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7671ee6f-3ec2-4dd9-af63-5f24de993779"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="Manage trips"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="9cd40ee3-0c79-43a2-b53b-2e754f20f82f"
+              LastKnownName="Manage trips"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7878b17a-d89d-4342-b4a9-c0199a7a2662"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="309b784d-6102-456a-a900-bab0ae6ec73f"
+                  name="Manage trips"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bbe6e80b-9daf-4397-8cc5-67a392ee402f"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="Manager"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="33c2a56b-eeaa-4e82-a2f9-96e15bbfb676"
+              LastKnownName="Manager"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="75e7679b-def5-4cc4-9a83-bf16f8eb86cd"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b1688c95-c57e-462e-a957-4e0db9f7ef0a"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="00e95548-c660-4150-9439-f32d3ac71261"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="View passengers"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="668b4b68-8907-4c52-a8a6-20a8f39fcabd"
+              LastKnownName="View passengers"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8f5b1ba1-e76d-408a-acff-ea11b1423b90"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eaf14fae-5425-42ce-a3ca-4ede70fce3d3"
+                  name="View passengers"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d0dc3609-3236-4840-bd94-57070d063544"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="Manage drivers"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e8927519-e1de-477d-ba3f-99adbf535636"
+              LastKnownName="Manage drivers"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="90a110d7-90e1-4bc1-a33a-2f264628167a"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7e18f450-f0df-4347-bb45-9211bbbcf038"
+                  name="Manage drivers"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a530fdba-e857-4eb2-8bcf-2ff0ddff90e7"
+            isDerived="false"
+            sourceEndRoleName="Manager"
+            targetEndRoleName="Manage vehicles"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="10b12f49-2ae6-4528-b71a-57611accc2ab"
+              LastKnownName="Manage vehicles"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c117ac64-05fb-4954-8ba2-2321a929ca3b"
+                  name="Manager"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="847978b4-64d2-4b93-9831-8bd98834feda"
+                  name="Manage vehicles"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8ea18a78-5faa-42a0-8de7-6d570e1bca96"
+        name="UseCase1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <artifact
+        Id="176d2063-6c93-4d0c-a1a7-f01e58607a2c"
+        name="Artifact1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="a0fddaa3-6cfa-458a-9db7-2bfbbe58997b"
+        name="System"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false"
+        isIndirectlyInstantiated="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+        name="Traveler"
+        visibility="Private"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false"
+        isIndirectlyInstantiated="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a405a468-a144-4bf7-bfc4-743be54d1dad"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a7ba08ad-0cd7-493f-8e91-d5e23fa4f762"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4124f8d4-aef9-4cfe-a595-4c938dfe8434"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cb37acf2-3faa-4371-96be-5a65d3952be6"
+        name="Login as a Driver"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ddbd2126-adff-48c2-aa33-dd4a00adc2df"
+        name="Login in"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b9deee1e-8c18-4023-9ee7-0c63c556a0cb"
+        name="Login as a Manager"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4a3256a0-f2e4-4a1f-9f9b-a7fdcaba62eb"
+        name="Edit route"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="05e5c40e-1a38-4f08-bfdf-82a843b47185">
+            <useCaseMoniker
+              Id="84ec4e05-74ed-40d0-a164-c8c3a2fcb6a5"
+              LastKnownName="Manage routes"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="801cbb05-1200-41bf-9bbb-6d2165c67712"
+        name="Edit trip"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="1e237676-fc62-4548-a03c-700acd89cdda">
+            <useCaseMoniker
+              Id="9cd40ee3-0c79-43a2-b53b-2e754f20f82f"
+              LastKnownName="Manage trips"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="17f60205-5be1-4d6b-85fc-ed641e50d3b5"
+        name="Add user"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="6bf7f063-eb83-4f79-9d68-b840c22443e1">
+            <useCaseMoniker
+              Id="d00e1427-741f-4f6a-afe1-8c9b54f0027a"
+              LastKnownName="Manage settings"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8c6b96b4-fc47-407d-b41a-48ebdf9ce793"
+        name="Form ticket"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d00e1427-741f-4f6a-afe1-8c9b54f0027a"
+        name="Manage settings"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d1a18505-db69-4e77-be20-bb839f2b2cc0"
+        name="UseCase25"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0b6f768f-5dc7-411c-b49f-ec13747c6bbb"
+        name="Add route"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="4c078003-0134-4b1f-8644-1350eca330f4">
+            <useCaseMoniker
+              Id="84ec4e05-74ed-40d0-a164-c8c3a2fcb6a5"
+              LastKnownName="Manage routes"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="edccf077-5576-4b47-b660-26681a5250ca"
+        name="Print ticket"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="4290eaa7-e22a-4772-b24a-fce7e27a6562">
+            <useCaseMoniker
+              Id="8c6b96b4-fc47-407d-b41a-48ebdf9ce793"
+              LastKnownName="Form ticket"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2864c0b8-dec1-4b2f-8479-b45984b7ea7a"
+        name="Edit user"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="a02a66d5-9df9-4f9d-acf2-04cd4723b05c">
+            <useCaseMoniker
+              Id="d00e1427-741f-4f6a-afe1-8c9b54f0027a"
+              LastKnownName="Manage settings"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1c7c81b3-6efe-439c-8d0f-17d3296b7536"
+        name="UseCase29"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1dd9ddf9-8473-4e91-930b-7365b7b7ae42"
+        name="Add trip"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="501c8f82-f79e-4669-b9dd-86e51c1c26fc">
+            <useCaseMoniker
+              Id="9cd40ee3-0c79-43a2-b53b-2e754f20f82f"
+              LastKnownName="Manage trips"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="49a196b7-85b7-43f6-8277-07817797425a"
+        name="UseCase211"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="9cd40ee3-0c79-43a2-b53b-2e754f20f82f"
+        name="Manage trips"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="10b12f49-2ae6-4528-b71a-57611accc2ab"
+        name="Manage vehicles"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fa34331b-2df2-462d-b1ef-99d54519dbc8"
+        name="Delete route"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="ec67d33c-d0ae-4fa6-9b91-4107bdf2b434">
+            <useCaseMoniker
+              Id="84ec4e05-74ed-40d0-a164-c8c3a2fcb6a5"
+              LastKnownName="Manage routes"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0de6e28e-0379-4e94-8dd3-c9671857a46a"
+        name="Delete trip"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="88ae8429-632d-4969-8b40-a09b4453aea5">
+            <useCaseMoniker
+              Id="9cd40ee3-0c79-43a2-b53b-2e754f20f82f"
+              LastKnownName="Manage trips"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="34e1bcb7-b2da-4325-895c-e5289e5a5fd7"
+        name="View trip information"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="668b4b68-8907-4c52-a8a6-20a8f39fcabd"
+        name="View passengers"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e8927519-e1de-477d-ba3f-99adbf535636"
+        name="Manage drivers"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="84ec4e05-74ed-40d0-a164-c8c3a2fcb6a5"
+        name="Manage routes"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3739ddb0-5404-4c06-baf1-2144a6b3a359"
+        name="View vehicle schedules"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f400515e-1060-4c54-b3ea-28522aebed4e"
+        name="Cashier"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="081d414c-c632-4b65-9c34-c0e377be4b59"
+            isDerived="false"
+            sourceEndRoleName="Cashier"
+            targetEndRoleName="Login in"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ddbd2126-adff-48c2-aa33-dd4a00adc2df"
+              LastKnownName="Login in"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="716d242c-86f0-4260-8af9-aa874ccc71f7"
+                  name="Cashier"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a3faa238-0d07-4539-82d6-af5412a40206"
+                  name="Login in"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="856c7413-fb65-491a-ae10-b71f936ea788"
+            isDerived="false"
+            sourceEndRoleName="Cashier"
+            targetEndRoleName="View vehicle schedules"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3739ddb0-5404-4c06-baf1-2144a6b3a359"
+              LastKnownName="View vehicle schedules"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2cb9e5df-3f62-4894-8a23-c91b17336516"
+                  name="Cashier"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="31dddf27-7117-46aa-9e1f-8797761ce927"
+                  name="View vehicle schedules"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1e52f335-fc47-4b67-8c9c-9fea3ec0bf2b"
+            isDerived="false"
+            sourceEndRoleName="Cashier"
+            targetEndRoleName="View trip information"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="34e1bcb7-b2da-4325-895c-e5289e5a5fd7"
+              LastKnownName="View trip information"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6920ec7e-5332-41a9-9f79-79991efe9a82"
+                  name="Cashier"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9c869bbd-0858-4fc2-988f-664097edb27d"
+                  name="View trip information"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="dc410856-e76c-402c-9ced-fa93885a7b79"
+            isDerived="false"
+            sourceEndRoleName="Cashier"
+            targetEndRoleName="Form ticket"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8c6b96b4-fc47-407d-b41a-48ebdf9ce793"
+              LastKnownName="Form ticket"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="598cb269-587d-47b2-be67-11a203dee2e8"
+                  name="Cashier"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f972bb4e-b687-4900-84be-210bbe75cd76"
+                  name="Form ticket"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="13d7db32-573f-4ca6-9748-76aa31d2da1d"
+        name="Delete user"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="74cec7c1-8281-4277-9546-12eaa26521a2">
+            <useCaseMoniker
+              Id="d00e1427-741f-4f6a-afe1-8c9b54f0027a"
+              LastKnownName="Manage settings"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="972a34eb-915d-4497-98b3-ad8089cd71ae"
+        name="Set db connection"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="01fa6b36-a50b-4133-bcc3-b84613e72811">
+            <useCaseMoniker
+              Id="d00e1427-741f-4f6a-afe1-8c9b54f0027a"
+              LastKnownName="Manage settings"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2d70b4f0-8e7c-4cfd-a532-a4bb44f89c73"
+        name="View passengers1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1ba7bec4-537d-47f7-b5cf-c0976cd2debf"
+        name="Add driver"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="58514a16-ab3a-4d85-855d-4466846d587b">
+            <useCaseMoniker
+              Id="e8927519-e1de-477d-ba3f-99adbf535636"
+              LastKnownName="Manage drivers"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8ef90e16-f0cb-441d-9f96-ad177774f2b7"
+        name="Edit driver"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="776519b2-cac0-4f3c-b6c6-eb32068692c2">
+            <useCaseMoniker
+              Id="e8927519-e1de-477d-ba3f-99adbf535636"
+              LastKnownName="Manage drivers"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="05caa4b2-3f33-4b5e-835a-f70e233811ba"
+        name="Delete driver"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="cf642bc2-53fd-4939-8253-5e157e9d8d11">
+            <useCaseMoniker
+              Id="e8927519-e1de-477d-ba3f-99adbf535636"
+              LastKnownName="Manage drivers"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2391fd14-9713-4a1a-a0c7-348c64951586"
+        name="Add vehicle"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="56091f21-0bb6-488e-893d-79409e34ac13">
+            <useCaseMoniker
+              Id="10b12f49-2ae6-4528-b71a-57611accc2ab"
+              LastKnownName="Manage vehicles"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="eb2f1036-b4f4-4c4b-9ea9-941e13093558"
+        name="Edit vehicle"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="d3c22b43-699e-43d9-83d4-d2e834ab2e09">
+            <useCaseMoniker
+              Id="10b12f49-2ae6-4528-b71a-57611accc2ab"
+              LastKnownName="Manage vehicles"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="22c78a06-39b0-4a4e-ad48-8d57a8ad41c1"
+        name="Delete vehicle"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="707969ed-9a8c-42e2-9550-4d086ddb59e3">
+            <useCaseMoniker
+              Id="10b12f49-2ae6-4528-b71a-57611accc2ab"
+              LastKnownName="Manage vehicles"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2f7ece57-1cb6-40f2-9eba-60e53061c686"
+        name="Set vehicle"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="8fb610fc-fe92-47b7-9512-f425c4632db0">
+            <useCaseMoniker
+              Id="10b12f49-2ae6-4528-b71a-57611accc2ab"
+              LastKnownName="Manage vehicles"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="85cf2821-a29d-4079-800f-efd4f72a0b3e"
+        name="Set driver"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="4f7b0aa7-f724-4c18-879c-e19c66158a1b">
+            <useCaseMoniker
+              Id="e8927519-e1de-477d-ba3f-99adbf535636"
+              LastKnownName="Manage drivers"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="63d3cc06-b697-4334-a688-ca6421ca0128"
+            LastKnownName="Traveler"
+            LastKnownLocation="ModelingProject1.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

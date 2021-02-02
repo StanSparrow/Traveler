@@ -1,0 +1,876 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="5dd2e48c-570c-4223-8768-0c206259d6ee"
+  name="NmspRouteWindow"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4aeb6faa-2b65-433f-b9ef-3ca8fe2fb9e7"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="fd60e084-2d7a-4f9b-804a-4f338c9a125d"
+        name="CRouteDatabaseData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1e8a68a3-7a4a-42eb-9068-d548fabae3fc"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCRouteDatabaseData"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9bcf05ba-138e-43c4-8938-b19b8ba7f9dc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e6a70149-370c-4f68-805f-b18780bad4cd">
+                <propertyInstance
+                  Id="fd288a42-2a30-4ca4-919d-933fe5da344c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58b18a1b-45d1-4f66-a288-dd20b05eda76">
+                <propertyInstance
+                  Id="4d0943c9-a9c2-4d87-b630-35a57edb56bb"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c54cc020-02d9-4300-8f73-d1a2b3184960">
+                <propertyInstance
+                  Id="e1d6e3ea-67b0-4460-ad7a-3a94b210c1c3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f67c4cf8-95f3-41f7-ae4a-4f19c66e9d48">
+                <propertyInstance
+                  Id="04e1a168-7a43-4090-bab6-a04908f95cf7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5bd04fe2-9217-467d-b54a-daab78775c74">
+                <propertyInstance
+                  Id="7bf5c77c-30f6-42e4-90c2-9beb2ff6de53"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8a34dfc0-810f-40f5-b0b7-6b1bba48b521"
+            name="sDeparturePlatform"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="20844b45-02e8-41e8-b283-faec15c06426"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCRouteDatabaseData Member%3DsDeparturePlatform"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8153dda5-3b3c-49d9-b6d9-623b9a0d581a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00f151bc-87a4-4fd7-adf9-ece52c027ef9">
+                    <propertyInstance
+                      Id="2ad38a11-11b5-4636-a5e0-74c84332040a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0a4082e-9225-4ca6-b83e-55bc040a8447">
+                    <propertyInstance
+                      Id="21fe4f84-1cea-428c-a7db-0f169d839f68"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd79a60f-d420-45f4-9040-7b516856554e">
+                    <propertyInstance
+                      Id="3134bcf5-5704-49a2-9862-6b5cd3cdd3ff"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbe70735-f4ad-4a80-951b-dc90e3b05cef">
+                    <propertyInstance
+                      Id="a08cd43b-f066-448e-9d21-31092c7d5fbc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="493acebd-22cf-472f-94c5-7ae0887d8dd9">
+                    <propertyInstance
+                      Id="82472aa8-e895-4f49-ab1b-9afa55467097"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b699ff6-874d-4f8b-b7fa-bde02b67690d">
+                    <propertyInstance
+                      Id="346c9bc5-cf2c-454c-bf08-9b57747f4fca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a491330c-8c46-472e-b09f-37104079feb8">
+                    <propertyInstance
+                      Id="07d28056-ff9d-4253-be90-1f92b77a080c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4dfd4dff-8fdb-456d-84e9-31ec2810875b"
+            name="sRouteName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f851f667-8e07-4cda-9df1-606a7b0684d5"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCRouteDatabaseData Member%3DsRouteName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="de88271e-d5c8-4ca9-b0eb-6c2a12b5db3b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9b735e5-5cc6-4754-8272-e19b44d243b8">
+                    <propertyInstance
+                      Id="00f98a4f-fb7a-4a94-8629-5b287f2081f4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7ff715a-1eae-436d-b4d5-afe0195be9ba">
+                    <propertyInstance
+                      Id="7f1357c4-3ba4-481f-b644-0925d55ae5ef"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a532dac-3832-43e1-af0a-c4a08a5f3d32">
+                    <propertyInstance
+                      Id="26f4785e-e9c9-4638-afb0-7fd1cbecf669"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a77c685c-2d86-4fc0-b71d-c8bd2b76894e">
+                    <propertyInstance
+                      Id="58e79fc9-d257-4add-891c-a7fb96031da3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb58ebdf-9403-4651-b1bb-72b80cf1b1c8">
+                    <propertyInstance
+                      Id="6533c323-4d14-45f4-b28b-77ae689c2137"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f79efc65-6ab2-48a2-b697-dbe97e64a487">
+                    <propertyInstance
+                      Id="a1a33b14-9dcc-44af-8f5a-af35fd765a95"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f5731a7-2963-470c-b4d5-be06d6c32995">
+                    <propertyInstance
+                      Id="d39b4288-96f0-48b9-b90e-6bc1ff902594"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="89ae5020-952e-43f1-808e-443fdbf5e878"
+            name="sRouteNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bc57ecaa-5564-4a16-825d-cfe7aeefb493"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCRouteDatabaseData Member%3DsRouteNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="11a26b4f-e913-4567-8f05-e8e9afe64520"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47b3e99a-050f-4c36-92d0-c3e3fdc3023e">
+                    <propertyInstance
+                      Id="32c59a09-4560-41fb-b20e-b6552a7e86fc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c4b5460-f8c3-40bd-bcd2-03704b4a9ec4">
+                    <propertyInstance
+                      Id="b87de352-bb62-4ea7-a9cb-fa08d544cbf0"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15c9ff41-5f8d-439d-a8ef-7d17196d0b0d">
+                    <propertyInstance
+                      Id="cd7b9db0-139e-4868-9496-171060c5d0b7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68729465-6419-439e-b9aa-71f0c4fae4aa">
+                    <propertyInstance
+                      Id="9dc112a1-a8a7-4cb3-98ca-9b9a1c4667d0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11c6bfb5-7bac-49c3-b990-f866743a0383">
+                    <propertyInstance
+                      Id="950ac2c7-4e5a-429d-9a5c-4393db4c4ad1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d598349-95bd-49cb-9af9-84c7a32fa7fe">
+                    <propertyInstance
+                      Id="2c818cd5-147e-4da2-a3f3-c0556563805f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00faedee-dc48-4d6d-bdf1-353db07d3818">
+                    <propertyInstance
+                      Id="7da943da-3cb1-4cdd-bf8a-751e158eb2f1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fd8a117b-19d8-4a78-91f7-36a993ee4f22"
+            name="CRouteDatabaseData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a1170be5-caf9-43c8-834f-a09dcf312c5c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCRouteDatabaseData Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="95760b68-c332-47e1-82e2-3b8d350a4d9d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="111d003b-9b46-42e4-9c1c-40f3f25bb475">
+                    <propertyInstance
+                      Id="3ef25b58-44e1-46ed-a7d7-5e14116327a8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e103a1e-955d-46d3-a8f4-81f3c3b15786">
+                    <propertyInstance
+                      Id="cf5d53bf-6eba-4fa7-916b-c1d71ec7a9dc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="923375d8-7b5b-4c08-b3d5-54b0801b7c4a">
+                    <propertyInstance
+                      Id="daa05eb7-7d4c-4ed0-a9f3-8af37655c945"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c2181f4-e03a-4e4e-9317-887452442de8">
+                    <propertyInstance
+                      Id="3d3f6e8d-b8fd-4b02-87e1-1bb041c66c76"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd9031db-4aa6-44bf-991f-73f2887cb5b2">
+                    <propertyInstance
+                      Id="7e65d6b4-8352-421d-be44-b32d49d931a8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54105a2e-9f7b-48bc-981d-55e7ca06a6b9">
+                    <propertyInstance
+                      Id="58053b23-b99c-4450-833c-e0cb93a0c9ab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="32981450-8f9b-454e-b187-08524935294f"
+        name="CRouteDeletionRequest"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="73b3a3b3-5adb-4edd-94b6-1ebef32c5d0b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCRouteDeletionRequest"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="23e5563a-0583-4275-9e4d-9f76e21372f5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2f60430-23f5-4668-82cd-ff2b51acff3e">
+                <propertyInstance
+                  Id="9f1169ad-17f0-4b6d-832e-063738356d76"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e889c61c-f498-48b7-bc59-50547b6a4ec3">
+                <propertyInstance
+                  Id="54c7b736-e494-46c5-bea2-8b93bb5dde65"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="454a2074-6729-4318-a5ce-e534da80fc53">
+                <propertyInstance
+                  Id="e27ef22f-839a-4ba8-9310-2a7dcc99fe18"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c7d70c3e-d54d-404f-b5a3-e27c3d65e730">
+                <propertyInstance
+                  Id="25483703-d3a9-4051-a354-d4207268c57f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6ead3ffd-0db5-45cb-a734-27c77d908594">
+                <propertyInstance
+                  Id="ebaeee5d-e2d7-4bca-8da7-085f8942b042"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="152927e3-c8b7-4749-9fae-dd94f1284c70"
+            name="sRouteNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d8168d6a-bcea-4c87-91d4-ea2abf1e94d2"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCRouteDeletionRequest Member%3DsRouteNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4e360cb0-8d31-4974-8d06-6c94a7aad5e0"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98617180-9f56-4637-8d88-db9f6a040430">
+                    <propertyInstance
+                      Id="b7aedfe8-3b74-4940-8708-db49b7fcc37e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2c44f35-a572-443a-846b-85b1980a586e">
+                    <propertyInstance
+                      Id="26e0a78e-338d-4a61-91b0-b9c82d38e8ea"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29b8f574-5d72-4b41-934b-2bbee4a3e7cd">
+                    <propertyInstance
+                      Id="3c0e791c-57f4-4a1a-b3f6-c592488014fc"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ca04af9-d1fa-4ba4-865f-df7b8df7dba0">
+                    <propertyInstance
+                      Id="eb74a877-ab8e-4627-8e01-6f9a30e1a53b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="624c561e-3c4d-4a98-bc42-02c706080cc1">
+                    <propertyInstance
+                      Id="4e218fb2-664b-4996-b2de-185f85d7fcff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9285f933-2a30-4206-a05f-21b6bf931254">
+                    <propertyInstance
+                      Id="e2402eab-9629-4e15-8621-8312eb08be66"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac9de2de-2420-445e-9e87-0cb88ed31137">
+                    <propertyInstance
+                      Id="b8a794ea-af23-4ee5-8793-80a6b44501ef"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2a98243f-5590-4b70-b1a7-112779ac7e69"
+            name="CRouteDeletionRequest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cccd35e8-07af-473e-853d-4d6f86dec618"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCRouteDeletionRequest Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dabdf764-0d64-470f-9688-5d478e797b45"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58821308-ea87-4f7d-a240-563cb8a62689">
+                    <propertyInstance
+                      Id="fdaa5a0f-e953-40d9-9049-f47367a89b14"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f33b3d99-8b72-48a8-bb12-37a0fa42a02a">
+                    <propertyInstance
+                      Id="e9ba5383-642a-47f3-9c36-c71465946448"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f0abc76-f122-47f7-8ef3-67501b101e33">
+                    <propertyInstance
+                      Id="2824b554-7885-4693-975b-6bcbce30059b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4da84e93-4c43-4f09-8903-af459d426efa">
+                    <propertyInstance
+                      Id="68635ad4-4ef7-4b37-b648-38d99428ca8c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="753a4991-b8c3-4164-a8f2-87eb869d9a2a">
+                    <propertyInstance
+                      Id="7557a857-ad17-4866-b8aa-4fd025f7bc51"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12abfc3d-4670-4568-a314-71ed4e29cc3a">
+                    <propertyInstance
+                      Id="5610d376-311c-4e55-a351-42d118b851fe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="072c7160-11f8-4ed0-9164-70ccb7ddeea6"
+        name="CVehicleRouteNumberByRouteNameRequest"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="31bf6de2-8e11-4b51-b676-1c3e030d92ed"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCVehicleRouteNumberByRouteNameRequest"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b5abe6ae-c4ab-4c98-8baf-e8e91f2ce943"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e1ac66de-7f11-46da-b9b6-614b576c9803">
+                <propertyInstance
+                  Id="aa422a96-6760-427e-b4d6-c46d21bcda83"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="524cade8-2561-489d-976d-9e10be2f0af5">
+                <propertyInstance
+                  Id="58c8329d-1679-40fb-bdd5-cbfb088efa52"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03f828ff-660f-43f8-a514-82889f24233c">
+                <propertyInstance
+                  Id="fe61bf3a-b19e-4167-9c34-656a41ce7162"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3d3775c2-20d3-47c0-bcf9-5500e83538da">
+                <propertyInstance
+                  Id="95bf5842-fedb-41bb-af9e-faccb8ed3cd4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c20d9ff-8ff1-4c69-a508-9984911eb753">
+                <propertyInstance
+                  Id="0f7c6388-a16e-4cfe-92d1-57673ef174a7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="62c9400b-6689-4b49-8b98-5d12d1b21fc5"
+            name="sRouteName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2e3fe79b-cdbf-49ed-8b20-bd72003fd59d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCVehicleRouteNumberByRouteNameRequest Member%3DsRouteName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="47301b08-7d4f-4e4d-aff6-ea0e200dda0d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3df4e167-4460-4f9d-a791-9771da8ec5b6">
+                    <propertyInstance
+                      Id="773ad80d-d892-46f3-a020-5548a00eedaf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e398ab4d-d0e4-4f2d-a8c4-503ed508a48f">
+                    <propertyInstance
+                      Id="9690ccbc-eb3f-4938-a49f-44d78f752371"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0957c153-273d-4c26-9d5a-0e7bc9952ba8">
+                    <propertyInstance
+                      Id="75d72518-7dbd-4401-8aa5-389314c66b42"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8547d093-cad8-4610-abad-f5a40ad802b8">
+                    <propertyInstance
+                      Id="868938ae-c68b-4864-b0b0-76f4dc0b6144"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acf52244-405b-4f4c-99f1-50e1b8404334">
+                    <propertyInstance
+                      Id="7bf32d9d-ba2b-4653-a692-9d822bd8d380"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a90760e-92f7-4ff5-a5ae-0d59a169e077">
+                    <propertyInstance
+                      Id="32a89f09-df30-4e32-abc9-3be79932d113"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19bc6b11-03c5-4baf-96af-36463bc3b839">
+                    <propertyInstance
+                      Id="180c97b3-93b7-4d6e-a74a-7cb24af1fa43"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c09a23a5-10ee-405e-9312-6c20206a2b6e"
+            name="sRouteNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b2c614b3-1d57-46d5-81a0-47ea22381c19"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCVehicleRouteNumberByRouteNameRequest Member%3DsRouteNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0bf4db4b-a299-4712-8257-98e23b7cd20a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cdc9bd0-898e-4b80-911a-b99403e02f08">
+                    <propertyInstance
+                      Id="47042137-179e-4cb8-8a5c-8f717fbc7c8e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f899bbd8-2ca4-4f57-95a7-fc7e00cf0563">
+                    <propertyInstance
+                      Id="b55484a0-428f-4b1d-9f73-f84ac560b205"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db0c6d1d-551e-477d-81a1-95ab876d5423">
+                    <propertyInstance
+                      Id="e224c839-276c-4e8c-8d11-272fd44d5f49"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdf3a69e-5a79-4551-8000-679b100c32d1">
+                    <propertyInstance
+                      Id="dc3e029c-9691-4c4a-8821-196f2c5403d8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="744123fc-53c0-43dc-9aaa-c440f1573eea">
+                    <propertyInstance
+                      Id="cd627073-f653-47e9-a414-8060ebcb7dd6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b088bfcd-bf42-498d-a47c-776a905b83cc">
+                    <propertyInstance
+                      Id="f5fad237-b901-49e2-a4d4-d37163587f0f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="042c8d8b-59ad-4225-b118-270dee4dc2e5">
+                    <propertyInstance
+                      Id="fd85c0c5-b60c-4271-9256-5300a5796514"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5fe804cd-b534-4322-86ed-ab24f8ff1885"
+            name="CVehicleRouteNumberByRouteNameRequest"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="95644546-fbb6-4871-bb25-2f2616bc8d54"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow Type%3DCVehicleRouteNumberByRouteNameRequest Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="795d7ea7-0ed1-455a-aa03-0e69da931278"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f8ca21f-185e-4e4f-a02e-43a81642a2e2">
+                    <propertyInstance
+                      Id="47b519f7-6245-4836-bf95-277b526ade72"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cff36144-41f4-4a21-b21d-0dc6ecd1dd90">
+                    <propertyInstance
+                      Id="6f64bbea-60e9-4239-ac32-195ab7385aaa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff607548-15f6-4339-aebd-6b715c0d0499">
+                    <propertyInstance
+                      Id="22e97c5b-2097-490a-a855-b2b8270af94f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a247944e-8347-4798-ab41-9143767feda6">
+                    <propertyInstance
+                      Id="b40e2af7-583a-4e3b-b55c-0af311c85d25"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a727dfe9-3956-46eb-9b80-d310488cfbee">
+                    <propertyInstance
+                      Id="edcf205f-4e8f-44e6-9ed4-9ed63aaf1bc1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed45e7e4-5414-44ba-b3cc-34148f30d3f7">
+                    <propertyInstance
+                      Id="f359fb0d-01dc-4db7-96fe-3ad484a682ce"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

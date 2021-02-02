@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NmspTraveler.AboutWindow" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AboutWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CAddAccountWindow" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAAAAAAAAAQAAAAAAAAAAEAgAAAAAAkAAAAA=</HashCode>
+      <FileName>AddAccountWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.App" Collapsed="true">
+    <Position X="32.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CBaseWindow" Collapsed="true">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEAAAgAAAAAQIAMAAAAAAAAAAAggAAgAAAAAAEA=</HashCode>
+      <FileName>BaseWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CDriverWindow" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QhEABBAAABAAAihAASEAACCAABAAQABgAIAAQgACToI=</HashCode>
+      <FileName>DriverWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CEditAccountWindow" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAAAAAAAAAAAAQIAAAAAAAAAEAgAAAAAAkAACAA=</HashCode>
+      <FileName>EditAccountWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CLoginWindow" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEAAAAAQCAAAAEAEACAAAAAAAAAAAAAAAQAAAACAA=</HashCode>
+      <FileName>LoginWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CMessageBoxWindow" Collapsed="true">
+    <Position X="27.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageBoxWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CPassengerInformationAddingWindow" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAACAAAAAAgAIAAECAAYAAUwgBJAQAwoACKIA=</HashCode>
+      <FileName>PassengerInformationAddingWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CPassengerWindow" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAFAIFABAEQgikACCAICCAiTAACAggIAQEQgQhHIE=</HashCode>
+      <FileName>PassengerWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CQuestionMessageBoxWindow" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>QuestionMessageBoxWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CRouteWindow" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EMAIBIAAABQQAABBBQAAEAjAABEIEkgggAEAAhgECNA=</HashCode>
+      <FileName>RouteWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CSettingsWindow" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABAIEAAAABAABAIAAUAgAABBQABBACAA=</HashCode>
+      <FileName>SettingsWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CTicketWindow" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgwAAAAACAAAAAAAACAAAAAAQAAAAAEAACAAgAACAA=</HashCode>
+      <FileName>TicketWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CTripWindow" Collapsed="true">
+    <Position X="25.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAEARQIAgAgAgQAAAEACRAAARAgCAAAAgAACIA=</HashCode>
+      <FileName>TripWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CVehicleWindow" Collapsed="true">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiBAACABCBAgBAgAAgABCAIBoEARUogEAAAgICGIA=</HashCode>
+      <FileName>VehicleWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CDataHub" Collapsed="true">
+    <Position X="41" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAABBAQWAAAAABAAAIAAAgAAQAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\DataHub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CGui" Collapsed="true">
+    <Position X="35.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAEAAAAAQAAAAAAAAgAQBAAAoAAAAAAQAAAAQAg=</HashCode>
+      <FileName>WorkSources\Gui_Sbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.CString" Collapsed="true">
+    <Position X="42.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\String_Sbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.Properties.Resources" Collapsed="true">
+    <Position X="34" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.Properties.Settings" Collapsed="true">
+    <Position X="35.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.CAccessManager" Collapsed="true">
+    <Position X="34" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAACAAAAAAAAAggAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\AccessManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.CCommonCurrentAccountInformation" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAABEAAAAAAAA=</HashCode>
+      <FileName>WorkSources\CommonCurrentAccountInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.CDataTime" Collapsed="true">
+    <Position X="42.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAABAAAAAA=</HashCode>
+      <FileName>WorkSources\DataTime_Sbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.CEncryption" Collapsed="true">
+    <Position X="32.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAMAAAAAAAA=</HashCode>
+      <FileName>WorkSources\Encryption_Sbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.CPicture" Collapsed="true">
+    <Position X="41" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAg=</HashCode>
+      <FileName>WorkSources\Picture_Sbl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.CPostgresqlWorker" Collapsed="true">
+    <Position X="32.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAIAAGAAAAIgBEBAAAAIQBAAAAwABAAgAAAACAACQ=</HashCode>
+      <FileName>WorkSources\PostgresqlWorker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.CSettingsData" Collapsed="true">
+    <Position X="39.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAAAAAAAIgAAIAAAAAAACAEQEAAGAADqAAAkAA=</HashCode>
+      <FileName>WorkSources\SettingsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.CTravelerManager" Collapsed="true">
+    <Position X="35.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAI=</HashCode>
+      <FileName>WorkSources\TravelerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Traveler.WorkSources.CDatabaseExchanger" Collapsed="true">
+    <Position X="39.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAEAABQAAoBABIQCgABCQAgAQIAEAAAAAAAIAwABA=</HashCode>
+      <FileName>WorkSources\DatabaseExchanger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspCommon.CPicture" Collapsed="true">
+    <Position X="42.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspCommon.CGridViewItemTextBox" Collapsed="true">
+    <Position X="34" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspCommon.CAccountDatabaseData" Collapsed="true">
+    <Position X="35.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAQAAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspCommon.CTripInfo" Collapsed="true">
+    <Position X="32.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAABAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow.CTripDatabaseData" Collapsed="true">
+    <Position X="37.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow.CTripDatabaseData1" Collapsed="true">
+    <Position X="41" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow.CRouteDatabaseData" Collapsed="true">
+    <Position X="34" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow.CTicketDatabaseData" Collapsed="true">
+    <Position X="34" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAgAAEAAAAAAAAACIABAAAAAIJACAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow.CPassengerFilterSearch" Collapsed="true">
+    <Position X="39.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspTripWindow.CTripDatabaseData" Collapsed="true">
+    <Position X="39.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspTripWindow.CTripNumberByDepartureTimeAndRouteNumberRequest" Collapsed="true">
+    <Position X="34" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspTripWindow.CTripDeletionRequest" Collapsed="true">
+    <Position X="42.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow.CRouteDatabaseData" Collapsed="true">
+    <Position X="35.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAABAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow.CVehicleRouteNumberByRouteNameRequest" Collapsed="true">
+    <Position X="41" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspRouteWindow.CRouteDeletionRequest" Collapsed="true">
+    <Position X="37.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspSettingWindow.CSettingsJsonData" Collapsed="true">
+    <Position X="41" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAIAAAAAEAAAAAAAAAAAACAAAAAAAAEA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerInformationAddingWindow.CPassengerDriverLicensePicture" Collapsed="true">
+    <Position X="37.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.CTripVehicleData" Collapsed="true">
+    <Position X="35.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAAAAICAAAAEAAAIAAAAAAAAIAAAAgAAAAAI=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.CVehicleDriverData" Collapsed="true">
+    <Position X="39.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAABAIAAAAAAAAAAAAAACACAAAAIIAAAAAAAABA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.CVehicleTripData" Collapsed="true">
+    <Position X="32.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAABBAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.CTicketData" Collapsed="true">
+    <Position X="32.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAgAgAAAAAAEAQAABAAAACEABABAMABJAAAEAIAAAE=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.CVehicleDepartureTime" Collapsed="true">
+    <Position X="37.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NmspTraveler.WorkSources.NmspWorkingStructures.CVehicleRoutesData" Collapsed="true">
+    <Position X="42.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAIAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkSources\WorkingStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

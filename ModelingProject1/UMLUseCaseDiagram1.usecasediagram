@@ -1,0 +1,839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="80d61245-be86-4fb7-8510-03461a2dea40" name="UMLUseCaseDiagram1" linkedPackageId="d6fd5611-2387-4e44-95c5-8b36d452c2ab" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="b6706680-939f-4c52-a66f-242370a071b5" name="Driver" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="291cc652-7fef-4ffb-9530-4416e7893008" />
+        <targetEnds>
+          <association Id="beb08a7c-d181-4a97-a8bb-00b5fea3dbd8" isDerived="false" sourceEndRoleName="Driver" targetEndRoleName="Login in" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d1ced8a4-31a5-4396-a565-3a9519d6c83c" LastKnownName="Login in" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0b7b4ec7-8536-48d7-8859-32cb6c1abb19" name="Driver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="441a231a-8dd3-49f7-b719-143022fb79a2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e2ed4e8-1831-4986-b186-6fed188d01f1" name="Login in" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4662a3ad-188f-4009-874a-3eb9f60f71c2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a7c245c2-efd3-4975-b2ac-cb66718ff5ab" />
+          </association>
+          <association Id="5e468521-c630-4d52-a7e7-1d2c9839c6ed" isDerived="false" sourceEndRoleName="Driver" targetEndRoleName="View trip information" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a6cf325c-04cd-4cdb-a0e2-1bf5961455fa" LastKnownName="View trip information" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3072790d-ac01-48fe-ae33-94e9e987bce6" name="Driver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5cf9863b-1357-4fdb-8360-b159a0ca57c7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e192146b-6b20-4ad7-abfd-e97e717db2fc" name="View trip information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2af18ba4-12c0-45e4-b36c-03807c147c43" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="19f0b2a3-3b1a-4bb0-b6a3-b6cb924a84d4" />
+          </association>
+          <association Id="30d1dd9c-ff6d-4b1f-8558-91759d5962c3" isDerived="false" sourceEndRoleName="Driver" targetEndRoleName="View vehicle schedules" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7075944-e0f4-4a04-8297-ed0484cbe366" LastKnownName="View vehicle schedules" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="083d58ff-b6ea-4f71-a95d-554caac148d7" name="Driver" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1b57905e-78da-4848-ac13-7e624bbd74d2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="148b7f5b-b6d3-43de-b22e-10ae2b94b217" name="View vehicle schedules" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="14c6ae4f-cb3f-4b85-97c1-993efb2ef192" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="df6ff0b0-4aff-42c0-9b47-e741ad7c35d7" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="7fae5ab9-c201-4328-9266-f19e7c86ecce" name="Admin" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="273da3aa-1934-426f-9317-572c6352c970" />
+        <targetEnds>
+          <association Id="db0a673a-fc80-4461-a1d0-f58b117b3fb5" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Login as a Admin" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d1ced8a4-31a5-4396-a565-3a9519d6c83c" LastKnownName="Login in" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="658e2170-5d80-4758-946e-c7521216de38" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2cae1dcd-1560-43a9-a1e9-35879a205ff3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5b978f7c-eaea-45ad-b442-073140b32c60" name="Login as a Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f0282340-c706-479b-a179-dbf5736ee48e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cd3c82ca-d502-482f-8ebd-7b41b7bed550" />
+          </association>
+          <association Id="a99ed204-0594-426f-8d07-0f5743307c0e" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="View trip information" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a6cf325c-04cd-4cdb-a0e2-1bf5961455fa" LastKnownName="View trip information" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="efa49845-a52d-430e-8a6e-6c280d80aea5" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9a62edaf-077b-4038-8835-b1e781c4dc4d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7f5614d3-5e28-4019-b330-9f8e4ce927df" name="View trip information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3216ee44-c00a-454a-b26b-41a1b29936b2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0f418395-a21a-453e-98f7-0ec4f2f62a0e" />
+          </association>
+          <association Id="59bd2cee-d875-4284-b3b9-2caebdaab28e" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="View vehicle schedules" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7075944-e0f4-4a04-8297-ed0484cbe366" LastKnownName="View vehicle schedules" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="382f3906-5262-493c-b58e-f8f449d41eb9" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b3c1b119-0c39-432a-a43f-bc5c2642e6da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ebaac7ad-960a-4acd-8eab-85636fc0198d" name="View vehicle schedules" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="668a2f5f-45cf-4e21-ab25-d5e80db48bfd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b4106031-0051-4a64-857a-0c900e58c198" />
+          </association>
+          <association Id="776321ee-7cfe-4da9-adb5-015b3348d43e" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Form ticket" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1fc8442d-3be6-4def-9d27-aeb9e7754b86" LastKnownName="Form ticket" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="630ddd7f-4659-4b26-8b84-c33e8aa70f71" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6a192f97-cdd0-4274-8d01-b88c9278715e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a9f455ee-2f28-4e73-8715-47f3ce68dfad" name="Form ticket" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4b871d42-5928-4a99-ad5c-363685d7118f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8c15ffe4-e379-4ebc-af67-69df2c4e4fdc" />
+          </association>
+          <association Id="c54752b0-53f4-4e78-916a-697a23b12055" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Manage routes" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3710ab04-6404-4bc2-9645-8209202289a0" LastKnownName="Manage routes" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="65bb5393-4f9a-4e5e-933b-1bed59e405a5" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9ca1386b-15f5-4529-b891-6f2129e745ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0eaa15f4-a4da-4be5-b32c-f47c79d8c9f9" name="Manage routes" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1c7b5069-70fd-4e5f-8413-41a38961a0ed" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c0a75998-4b92-427c-8b7c-35428b1e0a63" />
+          </association>
+          <association Id="510b8a11-7ab5-4e08-b38a-2e78bfe70e8e" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Manage trips" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6ac01a37-2ab2-4715-b32d-950ac61d64fe" LastKnownName="Manage trips" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d74cd30-772d-458b-826c-7480a2dd9365" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2bd29c1c-4227-41b4-a60c-b069d88a259e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="10b8379d-7d9e-43e5-9f47-81d1afef390e" name="Manage trips" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="858311a4-8e54-47a5-b19e-da2ddd61550b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9aaeb232-75e7-4d8a-afd8-ddf216e95d1a" />
+          </association>
+          <association Id="d8cc5fe7-c21c-457b-9f0d-eff6300f8de3" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Manage settings" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="dbf2dfd2-7349-4f93-895e-475b040518de" LastKnownName="Manage settings" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e770a119-69dc-4567-896c-d4504d4d208c" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="75cf3025-ce2d-4276-b98e-ac911aea41d1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="721f42eb-81e0-40eb-9fc6-3754849d519e" name="Manage settings" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ef0fdae1-6bbe-49ad-9d32-035aac25eac1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2075ef72-b1c9-48d7-8a9d-c7bcf15a4fa8" />
+          </association>
+          <association Id="b608db11-dbeb-4e7a-ae0a-f1970dc9f324" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="View passengers" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="deedefa0-7e8b-491e-bb82-1c57597940b6" LastKnownName="View passengers" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ba6435a8-1ab4-4d81-b514-254300c06bd6" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="047c9c56-1144-4552-bc13-6fa2a63f5bb4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e73778e2-8200-4746-8157-008f160ec5fa" name="View passengers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="476c9fcd-b2d8-4b45-a1ae-4313b2d60dea" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6327dc71-e44b-4dea-94d0-a703afa7046f" />
+          </association>
+          <association Id="3976c3fa-73a1-4bf6-bd84-f38f34e21bc4" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Manage drivers" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eabceb85-4216-4af6-9c5c-32bd477ee8ab" LastKnownName="Manage drivers" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e9397b4a-00eb-4fa6-a8d4-0adfa1553443" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ed87a42b-9221-4821-9c60-06e8c74e8846" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3da75633-1782-4f4a-b919-0c69ca4e233d" name="Manage drivers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bf639f2d-5aaf-425f-b423-ec3ec4c85573" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c96fce23-23f9-4a8f-8a4d-785708a42732" />
+          </association>
+          <association Id="900a819f-82e3-40ce-b4d6-edd0cf77a69d" isDerived="false" sourceEndRoleName="Admin" targetEndRoleName="Manage vehicles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2284636a-c7dd-4a07-b2fa-5196bac4e762" LastKnownName="Manage vehicles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c04abae2-cdb4-48e0-a807-d17f19eadb1f" name="Admin" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c51a55b5-7a84-4cb4-981e-39d3bc6f839b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="191754c8-720b-496b-91c5-2231b5783153" name="Manage vehicles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1065eba8-2b7b-4c83-87a4-7f21066143d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="34621f4f-8d7a-449b-be84-02ca5ff9f518" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="95162f62-134e-4bf0-b0a1-0f55951c7d7f" name="Manager" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="33c2a56b-eeaa-4e82-a2f9-96e15bbfb676" />
+        <targetEnds>
+          <association Id="fe52178b-7739-46bc-bd2a-4e81b96113d6" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="Login in" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d1ced8a4-31a5-4396-a565-3a9519d6c83c" LastKnownName="Login in" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cd9247cf-c57f-44ed-8d69-088e6d2d7c2e" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c6e80795-7ec9-4469-af5f-929d96d5e936" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="019bbc6f-fa94-4d25-a10e-92608c4309ef" name="Login in" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="69739b5e-231b-4c44-8bf3-115281898616" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cfe2b0d0-5586-435e-b999-49b015755ef9" />
+          </association>
+          <association Id="1cba5413-9f37-459c-a6db-2d34704c62a2" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="View trip information" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a6cf325c-04cd-4cdb-a0e2-1bf5961455fa" LastKnownName="View trip information" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eb250b41-51b6-4a81-952a-b5f53c3be1b1" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c949ac87-6105-4f35-b71d-097b40c1cb5f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="49467f43-d7cb-405b-9272-2192f886fbd5" name="View trip information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7713e862-bd6c-4000-8f49-eaaf4f8adaaa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8ab9ad95-3600-41f8-a368-f41f13fd2f0c" />
+          </association>
+          <association Id="a928e030-1d41-48a1-870f-f68b3dcbb8f5" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="View vehicle schedules" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7075944-e0f4-4a04-8297-ed0484cbe366" LastKnownName="View vehicle schedules" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="54fb1c77-596c-4154-ba70-d5984df5abd7" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f6d16930-a661-4bda-808f-35aa2bb08af9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6c8a6bf4-3c35-48c6-8eda-7edad993f369" name="View vehicle schedules" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3b93bac2-5122-4073-a1d4-c9ca805cc598" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a4210f03-dda9-41f4-b026-814d8c34237f" />
+          </association>
+          <association Id="24d3d613-4c30-492c-aa89-37c9ac404ebb" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="Form ticket" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1fc8442d-3be6-4def-9d27-aeb9e7754b86" LastKnownName="Form ticket" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acb2aef9-4ad5-4c59-b661-68dd0b79518a" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c07fdb20-ac07-44b8-9ce6-f426f9ec2026" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="969bae61-21da-4373-ba28-4b7c613c2fc5" name="Form ticket" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4d15bc59-187c-4001-b92e-9d6951e4915a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="717564fa-747e-4ded-a334-01fd9b96b460" />
+          </association>
+          <association Id="621e9537-8bbc-47d8-8cde-052203c424da" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="Manage routes" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3710ab04-6404-4bc2-9645-8209202289a0" LastKnownName="Manage routes" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d16ad488-d5ba-4ddd-ad0e-7ff9f4b73f47" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="778a171a-bbbd-4ae4-8d23-06cfb59b6b44" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4a6c7f00-e096-4c23-ad27-ab61158b5606" name="Manage routes" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f5bb541e-3f80-4434-9a99-bad17479800e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5277330e-15e1-49b5-9d97-92f89f0f900b" />
+          </association>
+          <association Id="0ef7d389-52b1-4399-a424-fa99f11b695c" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="Manage trips" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6ac01a37-2ab2-4715-b32d-950ac61d64fe" LastKnownName="Manage trips" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eee5d543-ae5c-4536-9244-439b237b1699" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7878b17a-d89d-4342-b4a9-c0199a7a2662" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="390bfee5-0844-4a3d-88ec-897bbea9a387" name="Manage trips" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="309b784d-6102-456a-a900-bab0ae6ec73f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7671ee6f-3ec2-4dd9-af63-5f24de993779" />
+          </association>
+          <association Id="20de6b79-d607-41b1-9a1e-e45338c9a81e" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="Manager" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="95162f62-134e-4bf0-b0a1-0f55951c7d7f" LastKnownName="Manager" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6f73f1f6-cac2-4252-a04c-c8de557122b4" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="75e7679b-def5-4cc4-9a83-bf16f8eb86cd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="865afae3-31d1-41f0-8c5d-5e679f1a6f81" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b1688c95-c57e-462e-a957-4e0db9f7ef0a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bbe6e80b-9daf-4397-8cc5-67a392ee402f" />
+          </association>
+          <association Id="474f6752-28c3-4148-b9ad-fe6af6780fe6" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="View passengers" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="deedefa0-7e8b-491e-bb82-1c57597940b6" LastKnownName="View passengers" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fe8f702b-c897-4b4d-b2df-12b831d609a4" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8f5b1ba1-e76d-408a-acff-ea11b1423b90" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1dc8d10d-2f5b-43c9-91ab-b57353583f70" name="View passengers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eaf14fae-5425-42ce-a3ca-4ede70fce3d3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="00e95548-c660-4150-9439-f32d3ac71261" />
+          </association>
+          <association Id="595541f9-ef9e-4154-b0d7-014fbeaae638" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="Manage drivers" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eabceb85-4216-4af6-9c5c-32bd477ee8ab" LastKnownName="Manage drivers" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a8f91321-1157-4416-b40f-e1bc5dbef33f" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="90a110d7-90e1-4bc1-a33a-2f264628167a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="433bb33b-622d-40dc-86e3-70c6d61af6f9" name="Manage drivers" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7e18f450-f0df-4347-bb45-9211bbbcf038" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d0dc3609-3236-4840-bd94-57070d063544" />
+          </association>
+          <association Id="5aa9a40d-aeaa-441e-b16c-4e09ac0330dd" isDerived="false" sourceEndRoleName="Manager" targetEndRoleName="Manage vehicles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2284636a-c7dd-4a07-b2fa-5196bac4e762" LastKnownName="Manage vehicles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="02ddb212-7d25-4d7d-b867-ea1394a06601" name="Manager" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c117ac64-05fb-4954-8ba2-2321a929ca3b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="214e3ef8-5fbc-437a-ac67-cb7d99ea504e" name="Manage vehicles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="847978b4-64d2-4b93-9831-8bd98834feda" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a530fdba-e857-4eb2-8bcf-2ff0ddff90e7" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" name="Traveler" visibility="Private" isAbstract="true" isLeaf="false" isActiveClass="false" isIndirectlyInstantiated="false">
+        <elementDefinition Id="63d3cc06-b697-4334-a688-ca6421ca0128" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="d1ced8a4-31a5-4396-a565-3a9519d6c83c" name="Login in" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ddbd2126-adff-48c2-aa33-dd4a00adc2df" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="99d98a42-193e-4e22-bc90-803815cc64c8" name="Edit route" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4a3256a0-f2e4-4a1f-9f9b-a7fdcaba62eb" />
+        <extendedCases>
+          <extend Id="b3f0d921-222e-4a98-8205-63741458141c">
+            <useCaseMoniker Id="3710ab04-6404-4bc2-9645-8209202289a0" LastKnownName="Manage routes" />
+            <elementDefinition Id="05e5c40e-1a38-4f08-bfdf-82a843b47185" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="0a8634fd-5f88-4b26-8f06-24b04f27b90e" name="Edit trip" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="801cbb05-1200-41bf-9bbb-6d2165c67712" />
+        <extendedCases>
+          <extend Id="9de718d2-aa56-49a3-8e49-19518ec82d3a">
+            <useCaseMoniker Id="6ac01a37-2ab2-4715-b32d-950ac61d64fe" LastKnownName="Manage trips" />
+            <elementDefinition Id="1e237676-fc62-4548-a03c-700acd89cdda" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2c3f4e8a-0a61-4624-bce2-94271143e135" name="Add user" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="17f60205-5be1-4d6b-85fc-ed641e50d3b5" />
+        <extendedCases>
+          <extend Id="e3b8017e-a1e2-489a-814e-c37b69eb209d">
+            <useCaseMoniker Id="dbf2dfd2-7349-4f93-895e-475b040518de" LastKnownName="Manage settings" />
+            <elementDefinition Id="6bf7f063-eb83-4f79-9d68-b840c22443e1" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1fc8442d-3be6-4def-9d27-aeb9e7754b86" name="Form ticket" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8c6b96b4-fc47-407d-b41a-48ebdf9ce793" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="dbf2dfd2-7349-4f93-895e-475b040518de" name="Manage settings" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d00e1427-741f-4f6a-afe1-8c9b54f0027a" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="86452cc9-1df1-4eb1-b0d2-309e5153fcdb" name="Add route" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0b6f768f-5dc7-411c-b49f-ec13747c6bbb" />
+        <extendedCases>
+          <extend Id="c7fefc60-c997-4642-b0ce-ead5b617a0e9">
+            <useCaseMoniker Id="3710ab04-6404-4bc2-9645-8209202289a0" LastKnownName="Manage routes" />
+            <elementDefinition Id="4c078003-0134-4b1f-8644-1350eca330f4" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a6677170-ecdb-4fbd-b48d-cbaf85db9d8b" name="Print ticket" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="edccf077-5576-4b47-b660-26681a5250ca" />
+        <extendedCases>
+          <extend Id="faa9db99-b006-4a43-bc29-0a1839665541">
+            <useCaseMoniker Id="1fc8442d-3be6-4def-9d27-aeb9e7754b86" LastKnownName="Form ticket" />
+            <elementDefinition Id="4290eaa7-e22a-4772-b24a-fce7e27a6562" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="731a5ab0-32d0-472e-9c1b-693a815ef9f4" name="Edit user" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2864c0b8-dec1-4b2f-8479-b45984b7ea7a" />
+        <extendedCases>
+          <extend Id="975ecd59-92d5-4929-aa16-cf73c3b41440">
+            <useCaseMoniker Id="dbf2dfd2-7349-4f93-895e-475b040518de" LastKnownName="Manage settings" />
+            <elementDefinition Id="a02a66d5-9df9-4f9d-acf2-04cd4723b05c" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="fd618b25-3f67-4421-a774-60daf8e0e3ce" name="Add trip" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1dd9ddf9-8473-4e91-930b-7365b7b7ae42" />
+        <extendedCases>
+          <extend Id="72ddd20e-311d-4e1c-b8a8-53f9a4234fed">
+            <useCaseMoniker Id="6ac01a37-2ab2-4715-b32d-950ac61d64fe" LastKnownName="Manage trips" />
+            <elementDefinition Id="501c8f82-f79e-4669-b9dd-86e51c1c26fc" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="6ac01a37-2ab2-4715-b32d-950ac61d64fe" name="Manage trips" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9cd40ee3-0c79-43a2-b53b-2e754f20f82f" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2284636a-c7dd-4a07-b2fa-5196bac4e762" name="Manage vehicles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="10b12f49-2ae6-4528-b71a-57611accc2ab" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="82a4096f-41b2-4b7d-9d23-42938e53fd8c" name="Delete route" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fa34331b-2df2-462d-b1ef-99d54519dbc8" />
+        <extendedCases>
+          <extend Id="d2fa51fe-2bd2-4b80-b4c3-d8e0166a88e6">
+            <useCaseMoniker Id="3710ab04-6404-4bc2-9645-8209202289a0" LastKnownName="Manage routes" />
+            <elementDefinition Id="ec67d33c-d0ae-4fa6-9b91-4107bdf2b434" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="17a08248-7391-430a-a483-604508e9980f" name="Delete trip" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0de6e28e-0379-4e94-8dd3-c9671857a46a" />
+        <extendedCases>
+          <extend Id="1a709019-5911-43b0-98af-f6b7ecdac423">
+            <useCaseMoniker Id="6ac01a37-2ab2-4715-b32d-950ac61d64fe" LastKnownName="Manage trips" />
+            <elementDefinition Id="88ae8429-632d-4969-8b40-a09b4453aea5" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a6cf325c-04cd-4cdb-a0e2-1bf5961455fa" name="View trip information" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="34e1bcb7-b2da-4325-895c-e5289e5a5fd7" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="deedefa0-7e8b-491e-bb82-1c57597940b6" name="View passengers" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="668b4b68-8907-4c52-a8a6-20a8f39fcabd" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="eabceb85-4216-4af6-9c5c-32bd477ee8ab" name="Manage drivers" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e8927519-e1de-477d-ba3f-99adbf535636" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3710ab04-6404-4bc2-9645-8209202289a0" name="Manage routes" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="84ec4e05-74ed-40d0-a164-c8c3a2fcb6a5" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d7075944-e0f4-4a04-8297-ed0484cbe366" name="View vehicle schedules" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3739ddb0-5404-4c06-baf1-2144a6b3a359" />
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="fd1edc25-cb94-4cab-8a2d-01365aa01626" name="Cashier" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f400515e-1060-4c54-b3ea-28522aebed4e" />
+        <targetEnds>
+          <association Id="0e330526-b433-4684-873a-24becb9c1a0f" isDerived="false" sourceEndRoleName="Cashier" targetEndRoleName="Login in" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d1ced8a4-31a5-4396-a565-3a9519d6c83c" LastKnownName="Login in" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f8d1056-7831-4104-9150-b84bed1e6ab6" name="Cashier" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="716d242c-86f0-4260-8af9-aa874ccc71f7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c42e7ea5-eccc-4ac3-82cd-dbe57661846f" name="Login in" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a3faa238-0d07-4539-82d6-af5412a40206" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="081d414c-c632-4b65-9c34-c0e377be4b59" />
+          </association>
+          <association Id="06cefcf5-dcff-4c12-ac7e-fdcb2129237c" isDerived="false" sourceEndRoleName="Cashier" targetEndRoleName="View vehicle schedules" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7075944-e0f4-4a04-8297-ed0484cbe366" LastKnownName="View vehicle schedules" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e2a5fcb2-e506-41e7-86c4-5110fea59b3c" name="Cashier" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2cb9e5df-3f62-4894-8a23-c91b17336516" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2fb4701e-5ac2-491a-8939-63c6b89f9004" name="View vehicle schedules" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="31dddf27-7117-46aa-9e1f-8797761ce927" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="856c7413-fb65-491a-ae10-b71f936ea788" />
+          </association>
+          <association Id="8f73c471-6194-43a2-a888-78a35054799e" isDerived="false" sourceEndRoleName="Cashier" targetEndRoleName="View trip information" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a6cf325c-04cd-4cdb-a0e2-1bf5961455fa" LastKnownName="View trip information" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d6ffce8c-c77e-4d5f-ab39-3d704d203882" name="Cashier" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6920ec7e-5332-41a9-9f79-79991efe9a82" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7e02ad14-80f5-435a-b3b7-b2dc88d701a3" name="View trip information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9c869bbd-0858-4fc2-988f-664097edb27d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1e52f335-fc47-4b67-8c9c-9fea3ec0bf2b" />
+          </association>
+          <association Id="482e86c2-0f3a-4f05-9911-01d6426c1a2e" isDerived="false" sourceEndRoleName="Cashier" targetEndRoleName="Form ticket" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1fc8442d-3be6-4def-9d27-aeb9e7754b86" LastKnownName="Form ticket" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="181ab303-3770-43ed-90cb-0970b35462ba" name="Cashier" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="598cb269-587d-47b2-be67-11a203dee2e8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="595c5f91-c945-45ca-803a-a99e445bf0c4" name="Form ticket" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f972bb4e-b687-4900-84be-210bbe75cd76" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dc410856-e76c-402c-9ced-fa93885a7b79" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="fb751e5e-6003-44cd-9cda-8b6ac1b05f17" name="Delete user" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="13d7db32-573f-4ca6-9748-76aa31d2da1d" />
+        <extendedCases>
+          <extend Id="9261165b-00e1-4111-86cf-f1cf9a5ddaf7">
+            <useCaseMoniker Id="dbf2dfd2-7349-4f93-895e-475b040518de" LastKnownName="Manage settings" />
+            <elementDefinition Id="74cec7c1-8281-4277-9546-12eaa26521a2" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="70ab1925-d77b-41c1-b421-7d280af8de5b" name="Set db connection" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="972a34eb-915d-4497-98b3-ad8089cd71ae" />
+        <extendedCases>
+          <extend Id="ea2712df-dd51-411c-9dd0-561ffa7acfc7">
+            <useCaseMoniker Id="dbf2dfd2-7349-4f93-895e-475b040518de" LastKnownName="Manage settings" />
+            <elementDefinition Id="01fa6b36-a50b-4133-bcc3-b84613e72811" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="fdd11d73-a7e8-4972-8acd-86601676cf1e" name="Add driver" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1ba7bec4-537d-47f7-b5cf-c0976cd2debf" />
+        <extendedCases>
+          <extend Id="216e0822-5121-4646-b317-0ca59a7cb0ed">
+            <useCaseMoniker Id="eabceb85-4216-4af6-9c5c-32bd477ee8ab" LastKnownName="Manage drivers" />
+            <elementDefinition Id="58514a16-ab3a-4d85-855d-4466846d587b" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c079e82b-24a7-4341-8d35-6e2817659dcd" name="Edit driver" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8ef90e16-f0cb-441d-9f96-ad177774f2b7" />
+        <extendedCases>
+          <extend Id="acb21e7c-f37f-4c1d-85c8-4a750e5c1907">
+            <useCaseMoniker Id="eabceb85-4216-4af6-9c5c-32bd477ee8ab" LastKnownName="Manage drivers" />
+            <elementDefinition Id="776519b2-cac0-4f3c-b6c6-eb32068692c2" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="13c2bc45-7491-43c6-81cd-0adaa9d474b5" name="Delete driver" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="05caa4b2-3f33-4b5e-835a-f70e233811ba" />
+        <extendedCases>
+          <extend Id="3aadad1d-95d4-427d-aeeb-5be53943eb2f">
+            <useCaseMoniker Id="eabceb85-4216-4af6-9c5c-32bd477ee8ab" LastKnownName="Manage drivers" />
+            <elementDefinition Id="cf642bc2-53fd-4939-8253-5e157e9d8d11" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e6af210f-f07a-42b0-aa4c-a5e794ae22c6" name="Add vehicle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2391fd14-9713-4a1a-a0c7-348c64951586" />
+        <extendedCases>
+          <extend Id="323d2cec-33c3-4938-9f49-77310cd69ebe">
+            <useCaseMoniker Id="2284636a-c7dd-4a07-b2fa-5196bac4e762" LastKnownName="Manage vehicles" />
+            <elementDefinition Id="56091f21-0bb6-488e-893d-79409e34ac13" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="316fed53-fd5c-4159-9fc1-8247c76423d5" name="Edit vehicle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eb2f1036-b4f4-4c4b-9ea9-941e13093558" />
+        <extendedCases>
+          <extend Id="66a2a06a-0de1-460e-afc8-61431171c29c">
+            <useCaseMoniker Id="2284636a-c7dd-4a07-b2fa-5196bac4e762" LastKnownName="Manage vehicles" />
+            <elementDefinition Id="d3c22b43-699e-43d9-83d4-d2e834ab2e09" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="c678426e-715e-4646-a6ad-0698515c5458" name="Delete vehicle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="22c78a06-39b0-4a4e-ad48-8d57a8ad41c1" />
+        <extendedCases>
+          <extend Id="2e3b02b7-ea24-432a-b370-9ee3cb1ab47a">
+            <useCaseMoniker Id="2284636a-c7dd-4a07-b2fa-5196bac4e762" LastKnownName="Manage vehicles" />
+            <elementDefinition Id="707969ed-9a8c-42e2-9550-4d086ddb59e3" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="69f2c5af-263c-4475-a714-c94d5aaeb895" name="Set vehicle" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2f7ece57-1cb6-40f2-9eba-60e53061c686" />
+        <extendedCases>
+          <extend Id="f5adf0fd-dccf-478f-9b77-cb60b1d96f9d">
+            <useCaseMoniker Id="2284636a-c7dd-4a07-b2fa-5196bac4e762" LastKnownName="Manage vehicles" />
+            <elementDefinition Id="8fb610fc-fe92-47b7-9512-f425c4632db0" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d00d72fb-99bc-47a9-80c0-c2c1fa98afed" name="Set driver" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="85cf2821-a29d-4079-800f-efd4f72a0b3e" />
+        <extendedCases>
+          <extend Id="50d9f230-457f-42cd-b986-8cf1e0cb8abf">
+            <useCaseMoniker Id="eabceb85-4216-4af6-9c5c-32bd477ee8ab" LastKnownName="Manage drivers" />
+            <elementDefinition Id="4f7b0aa7-f724-4c18-879c-e19c66158a1b" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="7ae9fc04-9ab1-43f3-926e-e08cbd450d1f" LastKnownName="Traveler" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="d6fd5611-2387-4e44-95c5-8b36d452c2ab" name="ModelingProject1">
+    <elementDefinition Id="7e84fae2-7e53-4b27-a773-302742ce4b1c" />
+    <profileInstances>
+      <packageHasProfileInstances Id="bf56a2a2-04f9-4e80-8c39-4c81e74504f8">
+        <profileInstance Id="cc5fc69d-123e-4d3f-9d4f-785fa9c56489" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="a6d2556d-8dc4-47f8-8675-c440fce76a82">
+        <profileInstance Id="75f3afb6-f089-49ba-a30f-333aa1e44b1c" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="3e60a3b7-f30d-4ed1-96e9-38c035872c95">
+        <profileInstance Id="da824662-1482-4a9f-a240-77c4fcea5538" name="CSharpProfile">
+          <elementDefinition Id="ca96974b-9cce-43a7-b5f8-8807adc8e067" />
+        </profileInstance>
+        <elementDefinition Id="70904611-b940-4a90-ac78-80bb8ab370c6" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

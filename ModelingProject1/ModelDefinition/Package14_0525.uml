@@ -1,0 +1,2290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="ab8e20d3-c8d4-4802-af61-848e85b67c3c"
+  name="NmspPassengerWindow"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="b4c6bc16-e8af-42c4-9e1b-44d336f0d78b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="77211778-8171-4374-8abd-ac6427508b31"
+        name="CTicketDatabaseData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="615111b6-2b66-452d-941a-53ed38654f7c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="6247b524-a48c-4e87-ae43-553611002dd6"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62ba6739-05db-4af9-a294-91c2649844e5">
+                <propertyInstance
+                  Id="96a2455a-0cee-4f7e-b7ea-f8a1ab62cdd5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="27ca979f-982f-4efa-a5c7-30df4ebdd5e7">
+                <propertyInstance
+                  Id="2df275cf-e621-4583-8823-d08de50c0285"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88cad1b8-d696-4351-a3ce-8832846f2d94">
+                <propertyInstance
+                  Id="d14cd4ad-a68b-4c62-bdf1-c89ecec7c3dc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18ca55a5-10be-40e9-8f9a-de428c6a5929">
+                <propertyInstance
+                  Id="1379e225-7535-4599-805b-82150d6ed2fd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd8d7044-7100-4d37-9e5b-2906903d4769">
+                <propertyInstance
+                  Id="b9ae4a23-2de5-482d-9615-d85f0ae27851"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="905d46a1-8334-45a3-8bf7-00f0137485e9"
+            isDerived="false"
+            sourceEndRoleName="CTicketDatabaseData"
+            targetEndRoleName="cPictureObj"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ff0730b5-59ee-422c-922c-9bd073fdc338"
+              LastKnownName="CPicture"
+              LastKnownLocation="Package7_0525.uml" />
+            <description>Property cPictureObj references type CPicture.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="930527e5-d063-4bc8-ae75-d1e702c10b0a"
+                  name="CTicketDatabaseData"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="f40bc070-1434-4ac8-a75e-8244aaf643e3"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0a565a62-5dd0-4f45-9ace-5d8063c09944"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6aaf5523-da47-4b35-8077-a5dfa8b4d564"
+                  name="cPictureObj"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e158ef3d-079f-4a1c-8ac7-d36003bb2837"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2e4a3fda-b8f4-4b65-b838-f4f95367ad4c"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="534b0e6e-9171-4403-a6b8-6f6be4dd0090"
+            name="cPictureObj"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="84a5f4ce-f4c1-4ee7-9b01-2cf3391f5de0"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DcPictureObj"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="35772d10-33b8-4bca-b5df-4e79ef8298dc"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb4667d5-0fde-42de-b273-cdacc9c27fcb">
+                    <propertyInstance
+                      Id="a055de02-8889-4292-a36d-cea0cea23dc9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4127f6af-1caa-454f-8280-242f522fd2b6">
+                    <propertyInstance
+                      Id="56fd5614-8ab9-4bc1-af3b-3ebf720b1a38"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d352e79-03b4-4914-805d-bd975f67ee8a">
+                    <propertyInstance
+                      Id="48aec6aa-dcf4-49aa-9274-c68c6ce14516"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97bc88a9-e8dc-4c0d-b6a4-0ed5e59d6ff3">
+                    <propertyInstance
+                      Id="93e7a8ce-eba7-4f4d-bde5-3eddf7ccf491"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="364414ea-df59-4bed-92d7-71d7e3236c14">
+                    <propertyInstance
+                      Id="465c74bd-d2d7-4729-a5f7-e8b78e6450ae"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4591744-d94f-46ef-916a-712afb4add51">
+                    <propertyInstance
+                      Id="3e99b20e-0de8-4807-afe5-a55e68708be8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2740846-4e10-49ed-b9f2-0479da189e73">
+                    <propertyInstance
+                      Id="ada268aa-1cc2-4361-acaa-5f9626ac7c07"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ff0730b5-59ee-422c-922c-9bd073fdc338"
+                LastKnownName="CPicture"
+                LastKnownLocation="Package7_0525.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b5b5e214-3edf-4151-8934-3caeaa9d0467"
+            name="sDepartureDate"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="40984d3f-d981-4859-b94e-7fab8146dc80"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsDepartureDate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0484b77-ff01-4fb2-923e-879d638a2d94"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0daafdbb-94da-4f6c-a136-e68073926cdd">
+                    <propertyInstance
+                      Id="6bb660d3-e6c0-4fbd-8666-7436e37ab2bc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51b38c82-1aa3-490d-a75c-d534698112e3">
+                    <propertyInstance
+                      Id="b5ecdded-6700-4957-b91c-44a91644aee4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1cddefc-c0ce-4a43-a2b3-dcb4ee46d139">
+                    <propertyInstance
+                      Id="4a1bd585-4651-477b-a464-60f9e49822c1"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fee41b40-81e9-490c-956a-f7d5e8924e08">
+                    <propertyInstance
+                      Id="dc4bb6ed-832b-49b7-84e1-eb06d5594cef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec6f1e77-b795-4b73-a32d-ddedfdc9eb6e">
+                    <propertyInstance
+                      Id="e8793c2e-9874-4718-94f8-97aa9a147577"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9f6e730-bab7-49cf-a90f-335f03364e8f">
+                    <propertyInstance
+                      Id="21e5afd9-b7bd-4829-9a9c-a64fe0fa34ce"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c120b14-9edf-4011-8048-2a9578160cfa">
+                    <propertyInstance
+                      Id="ac4a15bf-43a7-42e1-b448-6385c1ea6680"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="853093f3-0d21-4aca-8f8f-2b5574cc37fb"
+            name="sPassengerDepartureTime"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e1d1dafc-dc1b-43b3-a3e4-62d661f7dd93"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsPassengerDepartureTime"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="81d15dde-7605-4b47-98d3-2aa587d8e63c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a7d78e4-bb6d-47ed-93b2-2c74d45851ab">
+                    <propertyInstance
+                      Id="696d2a06-1025-44dc-9a73-3685f2ef1440"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e151775-5cba-49a3-a69a-47b5b110c25d">
+                    <propertyInstance
+                      Id="5313318f-7883-46de-b59d-a9d5d687076a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec927fb4-f8fa-4f63-8c09-66d06ca744b3">
+                    <propertyInstance
+                      Id="cdf87435-67de-4327-bb76-a62188ae10bb"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc9ce240-ce98-4528-9cce-af23258df6fc">
+                    <propertyInstance
+                      Id="91398084-832e-4d93-8128-30286cdb762e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="200842a4-01ce-485d-8aa2-9d2e2b47055c">
+                    <propertyInstance
+                      Id="7e8dce5e-0de6-4645-a75a-6f69e8d5ce7f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0c97b6f-f57a-4979-9143-65ca497726e1">
+                    <propertyInstance
+                      Id="83664ef1-dbdd-428f-90ce-3eaeeaea3b90"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16d23655-e5e7-47ad-9033-40cb8d71caeb">
+                    <propertyInstance
+                      Id="1bd98cac-5882-4739-8070-7de23357260f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ad4b8922-f7b1-4ac4-b7ad-89583b7862e2"
+            name="sPassengerDriverLicenseNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="92358ab5-7f69-4331-a740-810fb49b6d0d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsPassengerDriverLicenseNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9f11533a-918b-4d08-9046-6191e6ebb59d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24cd4956-caf0-4ceb-b8f7-62104961dd95">
+                    <propertyInstance
+                      Id="ffec2c49-463c-4f7d-b515-c4631e22194b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f36e06cf-d873-4ef1-8232-b20da5153f6c">
+                    <propertyInstance
+                      Id="ab4e3d55-a0a7-4325-93d4-17939e99e475"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de5e45da-31e3-46f2-a87d-f89acf74ca6f">
+                    <propertyInstance
+                      Id="4146e361-07b0-40a2-91ef-534145f2232a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="525bbd61-c528-4edd-a15a-091cff4d2651">
+                    <propertyInstance
+                      Id="4aa055a0-24aa-4d65-980e-c4b3a04ef1d6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46846816-0696-444e-9491-77e45333dc51">
+                    <propertyInstance
+                      Id="4911bab7-0fb7-4d40-be89-cb840434a91c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f4d8c67-5f0a-4937-a3ae-e249cc5b987b">
+                    <propertyInstance
+                      Id="8eab14c1-2403-4fd5-a73e-094570560cc3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f20149e-e6da-4b46-8cd4-0e2ddc0a66e9">
+                    <propertyInstance
+                      Id="cb7cb50a-0f5e-4f46-92d1-cd3a96ab5141"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="403d5766-01f5-4bfd-82be-4e13626d51e5"
+            name="sPassengerFirstname"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="85039c54-160c-4f3b-a1fa-6db085985a3a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsPassengerFirstname"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="447704ff-7992-4bf9-aa69-ea18c35ac0e2"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d8e3c0c-0e4f-40b2-83e6-332343791413">
+                    <propertyInstance
+                      Id="921b9c87-8f80-4bcb-92f4-8d435c3a638b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f5201f20-c5fd-42f3-95f6-7c20a6cf68f3">
+                    <propertyInstance
+                      Id="7cef3e0c-7956-4db5-b893-92074e957248"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17bc6045-fd45-4882-b4e3-7eb40235a597">
+                    <propertyInstance
+                      Id="8a9368dc-b68d-4a2a-8f5c-042ec725c4b3"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ff7718f-73cd-46a0-a216-5ae37daf8065">
+                    <propertyInstance
+                      Id="ece72a90-e462-4b8e-99e8-485f9b1b6ccd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b4b37f0-b120-4720-9e5f-a9762beb7a60">
+                    <propertyInstance
+                      Id="38e83f77-6dd8-4979-ae05-dea1cd79c560"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ba80684-bb10-44e9-af25-c7d162f7c790">
+                    <propertyInstance
+                      Id="e278652e-f883-49bd-b333-1a1a13c4ebdc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e0e5155-618f-4163-9907-6c6d8408314e">
+                    <propertyInstance
+                      Id="04ad5273-940f-46df-b171-5e0edafe8fcb"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="859e2387-2e95-466d-9c0e-c8b34d6bf6e2"
+            name="sPassengerLastname"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5d880fd9-37ab-448e-9aa3-b9a3f8c9c7c3"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsPassengerLastname"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="654b603c-cb41-4b70-8f1e-57c1df739c3a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc6cc5a3-2627-4bf5-8b0d-35b8016bb3af">
+                    <propertyInstance
+                      Id="2c8edafb-8331-40a3-a276-2348581c28ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0ca742d-cdaf-488f-ae18-7619735d8c47">
+                    <propertyInstance
+                      Id="3e1ed664-60a3-4f54-a7c7-8eb393570116"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39cebc0c-704c-40bd-80ce-135f0374712f">
+                    <propertyInstance
+                      Id="f791e992-1c46-4caf-9781-6477a54b833e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="703365b3-e307-43a9-b26b-469fe4de231d">
+                    <propertyInstance
+                      Id="b58a156d-fceb-4b57-81d1-96b30cc09dbe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb65c2df-5b56-4d0d-b0ee-d4c364d418d0">
+                    <propertyInstance
+                      Id="d4d4e5d1-10f3-44d7-92a1-6d8dacf8d6a8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab136e5f-e52e-49f1-854a-c3e958b545b4">
+                    <propertyInstance
+                      Id="6116b703-77b4-4919-84e2-d6ce8db5ebc0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c2ba6dd-806b-4a92-9f70-69b9feef2d34">
+                    <propertyInstance
+                      Id="ccbeb10e-91e1-46ca-b15f-a71e4391c94d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dc3b852f-978e-4c20-8ab2-ac7ed2c45f5c"
+            name="sPassengerRoute"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5e1bd45d-6137-4ad1-8eba-cfffb7fa7ecd"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsPassengerRoute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0b32e7b2-ba16-4eb7-b13d-b222fc574b63"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37ebead4-1b37-4798-8348-77e1e52ea4c7">
+                    <propertyInstance
+                      Id="ee8019c5-522c-4b9e-94f2-27f50b4bd549"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06a3a5e6-998f-4aee-a4e6-e2259a0828dc">
+                    <propertyInstance
+                      Id="2f838a0b-00f9-4763-95c6-51d54de50516"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbaa8cdd-0bac-4961-8264-eb0c65d8adc6">
+                    <propertyInstance
+                      Id="1803e9d8-65bd-4a34-be64-c8bcb752a09d"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b61337e-cd05-463f-b728-a5bfd3247581">
+                    <propertyInstance
+                      Id="f10b5410-6414-4323-b457-af39064f1289"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="728dfc0f-54c3-4925-847e-ef9f4e57ae82">
+                    <propertyInstance
+                      Id="489db145-7cb0-49cd-a5f7-eb48ba06e150"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18fd97bc-0ee3-46b4-a115-dc99315833a5">
+                    <propertyInstance
+                      Id="b92b0c5f-3f12-4f99-9280-9cb09f81ceb9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f3ed588-22fc-4902-9a96-1aa0ba917fc0">
+                    <propertyInstance
+                      Id="46a5a1b6-54d4-4bed-9ab1-d6181deeee2b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="234817bc-04e9-4809-a727-15161c480017"
+            name="sPassengerSeatNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9dd9d598-b93a-4673-b368-b6bcdb7e9e34"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsPassengerSeatNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="913f148e-0133-4079-bcc3-80381b74e533"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ca553fc-f309-447f-995f-d3c24b0e2598">
+                    <propertyInstance
+                      Id="a0f7f434-ac95-4bef-8fb1-e7d0ad2534be"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c2761eb-a4a0-471c-8e88-5c485dc9be73">
+                    <propertyInstance
+                      Id="92e354ad-153a-4e8f-934e-2f65a43931f9"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="39fd37b1-1578-4222-beb7-99bc673ceff3">
+                    <propertyInstance
+                      Id="934ae622-d356-49bf-ae06-bcb17994e95a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48d090b1-ca67-4eb0-8306-ab993a0eede9">
+                    <propertyInstance
+                      Id="1c0d86e5-47bd-41e5-8c9d-1060aa73301c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aac2ae22-2a81-4f2b-a1bc-fca608b75605">
+                    <propertyInstance
+                      Id="0780c659-704f-4f5b-8fc5-70c71de67c19"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1b8db80-007f-4fb0-ae15-eb269162a7cd">
+                    <propertyInstance
+                      Id="8117cd9e-4cc4-4394-a1c5-9e30aaa4c728"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac2f50d3-4015-4b84-ad8d-7b60f74206b3">
+                    <propertyInstance
+                      Id="29defea8-7c7a-46ad-8a4f-78061feb89eb"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3a8983f4-8c45-4aff-8e8a-ad71095e4909"
+            name="sTicketNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="99f60cd7-bcf4-46ba-83a7-a836d7f95a6c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsTicketNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ba2d7117-0bd2-4ca7-a00c-4e83c83be78b"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3866614c-34f0-4bd2-b495-3abd5a0379d4">
+                    <propertyInstance
+                      Id="3629c05c-c265-45a9-a6fb-11a4ac5447fa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4907dd1-a03a-4c94-a51f-de99038d4a01">
+                    <propertyInstance
+                      Id="c678b1b8-4a8b-4068-868a-3e1cae1d76e8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1add1487-57c2-4474-9fa4-1530062dd780">
+                    <propertyInstance
+                      Id="700fde78-08bd-4999-a566-df55e3f290dd"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0ed2964-155a-48bc-96e5-21d4b497c11b">
+                    <propertyInstance
+                      Id="b41594fe-515d-48ec-94f5-9b57175a1365"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f181f95a-af7d-4790-92cd-42a61b594da5">
+                    <propertyInstance
+                      Id="8079af24-3e0e-4b4f-ab7f-c14e777ee2d5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9607bcb6-5ae7-4bb7-ba75-a879fa859bd2">
+                    <propertyInstance
+                      Id="a0df27af-6bac-4775-aa9b-ca5f22c77e5d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e45fdd01-ee7e-49b2-ad7b-41136ab9a119">
+                    <propertyInstance
+                      Id="40a89fe9-ca57-4634-8146-d95610dc9484"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5977b1ca-a032-48b3-b04c-32ede296d734"
+            name="sTicketSaleDate"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2b616dcc-e605-432a-b8bb-a9b62d5d9efc"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3DsTicketSaleDate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6136de8c-15ba-480f-ad53-fff147fd4ee3"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1fc1277-ac48-4f2c-bf91-4cf8be39092e">
+                    <propertyInstance
+                      Id="8e6dfd00-6ac8-4108-8bd8-4106dc2f2a66"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3cf3ad75-f070-4a46-990c-5a9eab1e0060">
+                    <propertyInstance
+                      Id="278b2d53-12d7-43c9-94f0-ba7b7ba81086"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb71b0eb-4c65-4ce3-9279-18f141d09257">
+                    <propertyInstance
+                      Id="72e3b1ab-3739-4bd1-8071-97147e54fa61"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="496c7885-32d8-42d4-a65a-1c03b27d89f4">
+                    <propertyInstance
+                      Id="40b0151a-9ad5-4cdc-97ff-3eba3739b980"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14dd727b-e1f5-4cf0-8d79-f80508925304">
+                    <propertyInstance
+                      Id="62f1782d-3020-469d-8a6b-ccd7637d0ef3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbe05794-ac19-4ec7-9023-60c0cff83d0f">
+                    <propertyInstance
+                      Id="f5d7459f-7db3-4f8d-9c47-569659677fc4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a8cf0e0-aec7-4839-ac68-593b925498d7">
+                    <propertyInstance
+                      Id="cec7092d-a617-44a3-b62a-a88a2f5e62fe"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2acea644-fea4-4be7-99eb-00a7bdcf4bd1"
+            name="CTicketDatabaseData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="30106602-ece4-46db-8b41-2b1e2668b979"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTicketDatabaseData Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c4513364-2e99-416e-a66e-25e371023cd7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3684e100-6604-48af-8b02-2bc2094967d0">
+                    <propertyInstance
+                      Id="7321d4f5-1279-463e-b0cf-63ac2ac25ae0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="677a39b3-97da-479a-8902-6add3813bfc2">
+                    <propertyInstance
+                      Id="ee5a2034-efa0-46d5-a681-2f367881b887"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5943cbb5-e94c-486e-92af-83b533b68066">
+                    <propertyInstance
+                      Id="2230a2a0-4a60-45f1-b561-075bbebd2fcb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c481aa44-a8af-44a2-809b-6c53a8a7ad1d">
+                    <propertyInstance
+                      Id="607a0177-cd31-4065-a785-9e412cddda9f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="453a431b-d77f-435d-b12f-e93188a08fa2">
+                    <propertyInstance
+                      Id="c35d31e8-5e64-4e15-9d08-9c5f29c5c518"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb8234a4-75d0-487a-ae13-61e62995cfdb">
+                    <propertyInstance
+                      Id="3c2ff584-360f-4a02-adb0-0b1082cd7f57"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5c3f910c-7158-452f-8c7e-b7f141e27e23"
+        name="CRouteDatabaseData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="041bb918-fbd0-4e05-9e78-18194ef75c53"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCRouteDatabaseData"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2b2c82ca-57bd-4c4c-b0f4-91c7117a5d7a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8f3a1b67-14c8-4b9d-b1b0-f476a5ac22e5">
+                <propertyInstance
+                  Id="66fa567e-f8e3-4abf-a102-20f0a569dd32"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cdf9dee0-82d3-4116-a07c-4377f2335473">
+                <propertyInstance
+                  Id="684fab16-3350-4aef-9292-895cc2cbf178"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6564fb40-fc70-47e9-a320-a1c49c82991b">
+                <propertyInstance
+                  Id="1f7ba44e-89c3-4efa-85f5-ff53f5a7c556"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c2d7926a-6b4d-4685-8ba8-1165ecdc43b4">
+                <propertyInstance
+                  Id="66841ae3-f73f-475c-ab2f-c4ce3a524530"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5dedf543-5f19-4f6c-93ad-fbbbf5d48585">
+                <propertyInstance
+                  Id="f9625fd7-12e9-4258-a070-963c68dafb42"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="f149f7d4-b018-4ad9-aab8-cfcfe83fbb8c"
+            name="sRouteName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="9a63fbb5-45bf-49b2-9955-3e2144ab85ac"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCRouteDatabaseData Member%3DsRouteName"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8ce62fa-3d6e-486c-9218-2981fa5eabb9"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5c513bc-1f70-4064-8d92-01bf95a9b2e4">
+                    <propertyInstance
+                      Id="6b424565-5ed5-47e9-a0ac-054466285a90"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1c8d469-123b-4049-a40d-a1a8d5f1cdb3">
+                    <propertyInstance
+                      Id="5e242d5a-fef6-4178-a271-8cd4326c109f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3001fa1-da9d-44e3-a00c-62a46b683097">
+                    <propertyInstance
+                      Id="d8cbdc9e-fd09-4dc7-bad1-65c935303f16"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0fda844-e2db-43fb-9477-d0481e1898f6">
+                    <propertyInstance
+                      Id="63d329b2-69c4-4cd0-a190-b5a3b3650e9d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b6b45f5-aca3-46a5-8d29-2d74dfc556a6">
+                    <propertyInstance
+                      Id="0b499433-ef02-4975-82c7-cdb1165163c9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cce661da-ec66-46bb-8ccb-1c92db89c933">
+                    <propertyInstance
+                      Id="5eca16eb-6a29-4775-b3bb-1c5d0f442427"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="601d0f07-deae-4114-89e5-4b1e466021ec">
+                    <propertyInstance
+                      Id="0b94425f-7bcd-438e-b455-a0f7bc77bc93"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fb1854a6-d8c2-4795-b911-c6b9f9965f5b"
+            name="sRouteNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="546c0561-6271-41d4-af69-2e9c1b6b018d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCRouteDatabaseData Member%3DsRouteNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f7d9e02b-8664-438e-99f6-ae2fa2dc73a4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96dbe19b-82d0-44d3-be06-aa0050db5b41">
+                    <propertyInstance
+                      Id="d399d57c-67cc-41c6-8db5-faf36aafc43e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3da43a00-8630-4b73-80ee-a4927bdf85e0">
+                    <propertyInstance
+                      Id="b4968ef3-02c1-48e5-9052-7204ac99661e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e7fbf93-8ca3-411d-906b-dedfb877095b">
+                    <propertyInstance
+                      Id="9f022877-3cfe-4aac-9465-60449d304947"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edd46d51-6a8b-4e0b-afd3-e53c2283eebd">
+                    <propertyInstance
+                      Id="d2fc3689-6a71-43c5-a383-9c0a5a153f58"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb441a9d-2682-4fb8-a5b5-288550645dbf">
+                    <propertyInstance
+                      Id="026ff43b-55fd-4835-86fa-7fe5f9a4a257"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac7b1bab-72d9-427b-b58e-2405a556e8cc">
+                    <propertyInstance
+                      Id="2512f03a-e4c1-4f55-9681-a2dc0435d1e7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="436a6642-0259-4715-81b6-009f765a3a50">
+                    <propertyInstance
+                      Id="3b7b3b7c-7615-4cd6-90b1-b51678e14a0b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="94c3174b-4bcf-435c-802a-0560e00a9ab8"
+            name="CRouteDatabaseData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7ad4120a-ecc9-4aee-ae9e-d04476f98281"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCRouteDatabaseData Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5c6643fe-56d2-4775-bf75-f47eb9fa23ff"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e6ed79e-892e-4f78-9929-33db401d6e75">
+                    <propertyInstance
+                      Id="1fcf8354-ec1b-4dd4-aff5-552d6c9c2b04"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc7148cc-d701-42ef-bcda-46947a17c554">
+                    <propertyInstance
+                      Id="e6a287bb-0ae5-4590-b3a9-d750535f6581"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1e0a3eb-642a-45db-90f3-253db99f42e3">
+                    <propertyInstance
+                      Id="f696d296-6d19-4a90-9263-9a9d46121219"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92716cc8-e748-4aff-887c-c9687c5da76f">
+                    <propertyInstance
+                      Id="f764ed89-c29a-43e8-8b88-0632d51c4e4c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9ea95915-9158-43fd-b2c3-13c9d946cf2c">
+                    <propertyInstance
+                      Id="77912b6f-99ac-466d-8cc7-59cc982587b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e476a8b4-d557-4a93-b25b-d780f6aab88e">
+                    <propertyInstance
+                      Id="063f4b6e-eb98-4f6f-ad55-05b632fb5fc6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="395946f2-f560-4122-afdb-716947d57633"
+        name="CTripDatabaseData1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2c70a41e-24ef-45f6-840f-770e8693d6ff"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData1"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="417e4655-b295-480f-afd8-d90eda6fab4a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="72aa7cc0-4e2a-4512-a6c0-a5f39f798d71">
+                <propertyInstance
+                  Id="93070fff-6e9a-4b00-92e3-6edb5b0b6d69"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d269a64-ac68-45e3-aabe-96f8d97703f2">
+                <propertyInstance
+                  Id="789b02f7-7846-4a05-878b-bc0f16788966"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5efe3b8a-2259-4138-a301-6ff0ab99406d">
+                <propertyInstance
+                  Id="ec24130f-015a-4bec-939d-c4e55934f3d4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1892b8f7-47b4-4355-9a65-ff5ded50fbe8">
+                <propertyInstance
+                  Id="70000af2-0087-4be5-8f52-e8f26b262789"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="065c2a9f-5af2-4f9b-a548-6ba2023c8578">
+                <propertyInstance
+                  Id="56ac7be3-9e9e-44c2-9dc0-c6a665df051b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="2af48004-670a-4a9d-950a-387fec6cbd50"
+            name="sVehicleRouteNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e856a95a-2616-4384-9157-910fec016d22"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData1 Member%3DsVehicleRouteNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc82b736-cf62-4f71-9157-968c244ab66a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c692f1f7-41b0-4632-bf25-0db9dabc58a8">
+                    <propertyInstance
+                      Id="5b7cd726-8073-4412-9f8d-6fad530f3102"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c569514d-297e-4272-bed8-2bd2281c40a5">
+                    <propertyInstance
+                      Id="7bc2f3c3-1a54-4ca2-a5bf-a585dc9cb29e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ef689e3-45df-43b1-a830-5c86f1cfd471">
+                    <propertyInstance
+                      Id="1d0eb0dc-f053-44dd-9303-fefc22aaf9df"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6ed93cf-c109-4225-a917-f786da3273fc">
+                    <propertyInstance
+                      Id="28ace206-46e2-41b9-9ffd-87fabb9e0cf0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c810d923-d29a-4092-ab3a-fe70b94efbda">
+                    <propertyInstance
+                      Id="c1ba0fa2-7034-4a99-a1bc-460ad41133fb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="629defe8-5864-49e0-897c-7dfa4c3a5bb4">
+                    <propertyInstance
+                      Id="3182adc6-0a98-4848-9e62-ab32b99849f8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45cdc1ef-56cb-4150-a444-769b3fc6d916">
+                    <propertyInstance
+                      Id="37a39ecc-469d-4f3a-9e39-dc50dea82199"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e89dfe43-8408-4393-9606-84e30df16454"
+            name="lsDepartureTime"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7fa53395-00e5-4744-b60a-fc382703f84f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData1 Member%3DlsDepartureTime"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="95ff12c8-f7f8-4d56-971a-dd41addd9e60"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8e1fc0c-9d3c-45f8-a0ab-4b9ad82a0583">
+                    <propertyInstance
+                      Id="0bc33981-6965-47fe-add3-286e7d120706"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="059d9a3f-b1a8-4d65-8a77-cd4ff1729842">
+                    <propertyInstance
+                      Id="8399c2c9-b2f5-4816-9a84-2006cf0b9f80"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd5cd57b-a378-496e-81a6-bb0391362829">
+                    <propertyInstance
+                      Id="ce738de8-7cf2-4882-91a2-d6f80ccb0e89"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b14bf287-6c0b-4d54-9ac8-40122e7a393e">
+                    <propertyInstance
+                      Id="0a000cc5-65c6-4777-8703-ea1e8918c260"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f5e7ffc-db06-40b6-a0da-6c65226b9deb">
+                    <propertyInstance
+                      Id="1af299db-e27a-4d5a-9359-e1904ed5831a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="be87750c-c696-490a-a06c-95d88f017a37"
+                LastKnownName="List&lt;String‎&gt;"
+                LastKnownLocation="Package12_0525.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="bb62497a-a6ab-47ef-b4e6-9c37d2e10917"
+            name="CTripDatabaseData1"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f1b65dca-31c2-4614-b79a-49f0d40e7cae"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData1 Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4acb40b1-552c-419c-897c-0748b6bb2db9"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c019d6c1-93de-4040-8f3c-c10602213e1b">
+                    <propertyInstance
+                      Id="a5994fcc-41c3-48f0-a4d4-1c082dd7c697"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cbec1fd-afc5-4497-bf35-08bcb35ee4f2">
+                    <propertyInstance
+                      Id="8dc14f4b-224f-4524-bbda-9d4be5a41060"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="507cc916-2a59-4f88-847e-feaeba52dae8">
+                    <propertyInstance
+                      Id="c0c98f8e-4f2a-4e44-8e31-13b5669cbd4c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3680ec5f-5769-4c55-ae0c-2141603fbfae">
+                    <propertyInstance
+                      Id="0626975f-cc56-4f2e-baa6-abbc849f5152"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a89da9bb-e78e-4d1a-a4e0-89962f6be199">
+                    <propertyInstance
+                      Id="051876f7-6010-4068-958a-3375ec612c16"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d369aca-4563-4320-ba88-4a808b5beace">
+                    <propertyInstance
+                      Id="5da5a57c-cfe8-4a1e-8d99-0f56997d36e4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="dfbb5134-251b-476e-a350-949aa3f36b4f"
+        name="CPassengerFilterSearch"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="90f8d5fe-41d6-4b90-aa91-54c3f8508743"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCPassengerFilterSearch"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3db5a001-e1cf-4cc7-9f9f-99905916c003"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04a304bd-8270-4515-924c-50131ab98a66">
+                <propertyInstance
+                  Id="fb7b0b8e-6a39-403f-a41b-ceb45c7c8357"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="036b77d7-1db9-4719-a854-b26325a07da5">
+                <propertyInstance
+                  Id="9c90b574-6178-44c5-93a9-762337fda98f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="046e2a4f-7290-4f97-a3b4-d7a2f9de23c6">
+                <propertyInstance
+                  Id="b7b3a4c6-5320-46de-98ad-d08a8c921e14"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c07aed9e-e08a-4709-a617-d9fefc0b7d68">
+                <propertyInstance
+                  Id="03b5e591-c937-4af8-b920-e6a548222977"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2761e71-cdaf-46bb-84f9-3c60fff5ac16">
+                <propertyInstance
+                  Id="e0a6a29d-66d2-481b-a07f-b475f175332f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8d07e8ba-e468-41df-aeff-e4eddcc26814"
+            name="sDepartureDate"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e4665852-e54f-4ff2-b253-96f0e376fa9a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCPassengerFilterSearch Member%3DsDepartureDate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cd798611-52e7-440d-8b9d-0f615a823b10"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="386e16b2-fc72-46c2-8c87-d377be3cbdf9">
+                    <propertyInstance
+                      Id="82ee26f9-b573-42a0-b318-5e5376ce1085"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="454468f5-6428-42d2-b3d4-625576384800">
+                    <propertyInstance
+                      Id="95d0a84e-7895-456e-a194-e0fd9624bee4"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e6aebd1-83af-46e3-b2b6-e94fefa614a9">
+                    <propertyInstance
+                      Id="e1716b77-49d4-49ce-bc82-fbcdf3e8bdd1"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a2b302b-13e7-4956-bd7e-99bb96320655">
+                    <propertyInstance
+                      Id="57a46188-e563-4d62-95ed-fe0d141ee24c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00c25be9-2362-402d-95bb-cfd604f5a834">
+                    <propertyInstance
+                      Id="08fbc10f-f492-4d69-9958-c930c56fa9e5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d6b8a8c-d6c9-43ce-9055-64cd3d8a4350">
+                    <propertyInstance
+                      Id="9d65b5ec-221c-4d90-ba42-d0d94ac84aac"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61b15d08-8f40-46d7-b14c-819240d36a93">
+                    <propertyInstance
+                      Id="abc9d59f-c7bf-4bfc-b038-c33353296942"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c8d7c842-6c32-4bdf-834d-80442bd66c8f"
+            name="sDepartureTime"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fd7e8726-065d-411f-af5b-bd9f63080491"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCPassengerFilterSearch Member%3DsDepartureTime"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c7b60b2e-3a9a-47e0-b70e-406f859ae751"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e6bb649-4d27-4af3-8845-40a2c426bd50">
+                    <propertyInstance
+                      Id="b907cb2c-bb30-4146-a8ff-7da0fb9e572e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="238feaea-0697-498f-9e28-487dd8f880c6">
+                    <propertyInstance
+                      Id="a7a85ca5-cddf-42dd-9647-eb57b19c5419"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="718eadc7-8fde-454b-9abc-bef672b797c6">
+                    <propertyInstance
+                      Id="f609d18d-42e2-48af-bac9-9728ac4f59f8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74686690-6ef5-4e30-8c93-ef9467a7b139">
+                    <propertyInstance
+                      Id="43c8d9de-a146-46ac-a3a5-6b3387212fe8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5a645d45-9721-465d-8730-b1ad6f51a331">
+                    <propertyInstance
+                      Id="2c4afefb-bc0d-49d3-8abc-a492a90ab960"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="efa2c1a7-a9e8-4b5c-990f-2a3e5ed3949d">
+                    <propertyInstance
+                      Id="460aabbb-2d22-412b-82e7-f4a45ce2e5ea"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f096511-4b7c-4a2b-9004-46b76c2ded80">
+                    <propertyInstance
+                      Id="825bea9e-16df-4bf4-91d4-39ec2f61f468"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="eca96ed4-12ab-49b4-a029-7efd117e86e5"
+            name="sRouteNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5616885e-6636-4aa5-b4e5-83c587fcaf40"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCPassengerFilterSearch Member%3DsRouteNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0afdb53f-28be-4f6f-b679-f9b80cf02fe8"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b09d9171-a14f-4fcc-8645-f7687044caff">
+                    <propertyInstance
+                      Id="ed0ac382-39e3-4eef-b570-ed2842aaa56d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b83ad28b-dfe4-4d2a-b237-ace44e82fe24">
+                    <propertyInstance
+                      Id="2c60e7b7-58cc-4077-b0be-53b66fbe1442"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7037f14-3503-4e9a-a67e-389f2465fb8e">
+                    <propertyInstance
+                      Id="42d4d765-66a2-4f31-b2d9-9be497a57fd6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a1c4ddc-738f-4341-a9b0-1694b2045149">
+                    <propertyInstance
+                      Id="7ec1ddfc-fb6b-440a-8a82-546c3e94318c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48b7cb43-74f2-402f-88c1-e425f13f363d">
+                    <propertyInstance
+                      Id="f8625920-7bab-4e05-b367-5eab5d72a0c4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64a60a92-3ad6-42ca-bc46-42d3b8ccf496">
+                    <propertyInstance
+                      Id="17d36112-186f-4eef-8e36-bc038d5e7ba2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cec67be9-956a-48dd-9321-b8821a5a420f">
+                    <propertyInstance
+                      Id="8ddc12bb-87a9-4220-b856-04c3e9da3b52"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2e0c9432-8227-4cd5-8c10-1097b4f569b1"
+            name="CPassengerFilterSearch"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f7667e08-8281-47ba-9b90-6249c816e427"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCPassengerFilterSearch Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="19d5a945-917e-4baa-be84-e844c2b0a164"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa2e7776-65ca-4ff2-8002-2521bfa83b3e">
+                    <propertyInstance
+                      Id="c16abd1d-f221-4dee-af36-a27e2e55d0da"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0209dce-5cb8-4e66-91be-f271926b3c95">
+                    <propertyInstance
+                      Id="ecf4cfc6-9751-4ff6-9362-264b64e45755"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3f11dbd-8851-4748-b3b0-7ff5e01d9c56">
+                    <propertyInstance
+                      Id="5053d0e9-b664-456f-8dae-8d92901041ce"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbedd665-9fa8-4152-ad3a-54ec937c5d04">
+                    <propertyInstance
+                      Id="c99ec985-c200-4cf7-94e4-1bd37c9f6d76"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d94d40ef-cfc4-47b5-a5f0-1596fc04874e">
+                    <propertyInstance
+                      Id="a9fe51e1-9676-4ee3-ad85-f17129274687"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0478ebfa-f0ee-45b2-a80e-b2176ea706d7">
+                    <propertyInstance
+                      Id="6112739c-51c4-49a8-b269-188be2fd9eb0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="897d7d64-3e30-43c2-930c-eb18317d3890"
+        name="CTripDatabaseData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6c2c85b9-aa3a-4004-87bb-fca95488217b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="355437f2-c5b5-4741-ab3a-2e124ab95b33"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15f9df9f-e534-4baf-8cf2-fe388aa7627d">
+                <propertyInstance
+                  Id="b54c79e9-4c92-4abe-9a7c-9a04676a328c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="50a4ed5f-b778-4e6d-8a53-1b4075298614">
+                <propertyInstance
+                  Id="f5dcc0d5-ba1a-471e-adc5-ac6bf73322c4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c374601-5a7f-4b3a-a70b-c6370953a087">
+                <propertyInstance
+                  Id="9ad26364-b45a-4983-9a71-ef389d201fe3"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5d8b2c3b-e1ed-4ab8-9184-e8418ed2d869">
+                <propertyInstance
+                  Id="9d52f16e-032f-4559-8bac-2236412372c2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0065fa84-4e98-462d-aeae-646a6d2defce">
+                <propertyInstance
+                  Id="80e1b6bf-0a2d-410b-8704-3b1d55d096ae"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="7d2ec676-a6f0-41c0-a8b3-9b3ad58875e1"
+            name="sDepartureTime"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f36b2b7f-adba-4633-8b47-449079443f18"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData Member%3DsDepartureTime"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2fe08fb3-48c8-488f-b9a4-e4716358a0d6"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b0e356f-0080-491d-a867-5fd0b721fd47">
+                    <propertyInstance
+                      Id="61dc4903-3886-4cb4-b769-bcce84371bc6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62bfb0f4-dfea-4d2c-952a-9f6551549939">
+                    <propertyInstance
+                      Id="c79971d7-388d-4295-a377-a339fe646ed8"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7bafe79-b3ec-4363-92f9-89f476894c9b">
+                    <propertyInstance
+                      Id="08b2d680-1994-44d4-bca4-2b7371a1741f"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41ef4044-acfa-4219-84dd-ecf7445b1f19">
+                    <propertyInstance
+                      Id="53e50533-1ac4-46e5-8925-c285c32cc154"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a0442fb-0bbf-4eaa-a2f8-6ecc5aae7848">
+                    <propertyInstance
+                      Id="8e517b96-205b-43f7-9509-842366fea37d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="450dcf13-4756-4a8d-9491-a0dca43b33ce">
+                    <propertyInstance
+                      Id="fd5bbd46-99af-4042-a54f-fb45ce8433e1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ade5c667-ec29-4e6c-9edb-1ef2c4835916">
+                    <propertyInstance
+                      Id="6556a1ba-e6dd-4b57-b9d5-6131ed771dd2"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9630af62-2ee6-4152-b0d4-9e9d2c35fdec"
+            name="sRouteNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d4a83575-790a-4c77-955e-1aab2dee3286"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData Member%3DsRouteNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c3be02ec-1c55-4499-8635-95d6464d4202"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f28efd59-c574-4322-b14e-627e256ef56e">
+                    <propertyInstance
+                      Id="438b0170-a09f-4940-a1b4-afb357dba496"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fd2f81c-11fc-4570-9e28-a4c91c17f064">
+                    <propertyInstance
+                      Id="6cbfb7db-bee7-43ef-b410-bd6afb19b62d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f28bfe98-19f2-4c82-8800-33df781b4344">
+                    <propertyInstance
+                      Id="992e45fa-eed1-48ea-a30b-abec6d0bf4d7"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b4969cc-b6c2-444e-8f0d-a86988bef9ef">
+                    <propertyInstance
+                      Id="eb93fa35-1316-4c9e-9052-20f5335f8d44"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e004d60a-69a0-4d26-9da3-bc5b385f222f">
+                    <propertyInstance
+                      Id="044b3fdc-ba76-452a-a165-48800829ca50"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a71d7902-54e8-4f41-a4e2-194200e7157c">
+                    <propertyInstance
+                      Id="5e3cf84f-c3f0-474d-be53-cb2291704754"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d234ba7-ce5a-4097-b7f8-767c40e0dfa1">
+                    <propertyInstance
+                      Id="0261f3fb-12c1-43dd-8923-d34bb15fa14f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1685bc19-c81c-4dec-8c8f-e16d102643ca"
+            name="lsTripNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b25edfa1-c1aa-44b0-b1c1-bd66f9c96e39"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData Member%3DlsTripNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e7c524dc-79ca-4efe-bb23-f515ee0bed1a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="031d6d72-09ed-47cb-87c8-eb877df3954c">
+                    <propertyInstance
+                      Id="296f67bb-1478-48bb-83ec-64e26da115ad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a08fefaf-133d-426c-9e5b-da9aad27e6b8">
+                    <propertyInstance
+                      Id="71328455-27a1-4cc4-a101-371fd5aa6dd0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b366a6f-6a94-449d-9ac0-95b0d762956a">
+                    <propertyInstance
+                      Id="d8bbbcf0-dab4-44a3-8d37-ccb88f5341a9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="977d267b-27c8-4e78-a361-ad3296e302ff">
+                    <propertyInstance
+                      Id="ec129112-33d8-4350-b4b2-edc741fec6ad"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="470ec885-e436-44d7-a016-a5627611d600">
+                    <propertyInstance
+                      Id="2ed515e3-3e58-442a-b1f2-13865506fc85"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="be87750c-c696-490a-a06c-95d88f017a37"
+                LastKnownName="List&lt;String‎&gt;"
+                LastKnownLocation="Package12_0525.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b3656523-5a66-4f81-a5d0-b3faf205f50f"
+            name="CTripDatabaseData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="06b2f9c6-3fbc-430a-b631-6bb650abb322"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FTestProjects%2FC%2523Source%2FTraveler%2FTraveler%2Fbin%2FDebug%2FTraveler.exe Namespace%3DNmspTraveler.WorkSources.NmspWorkingStructures.NmspPassengerWindow Type%3DCTripDatabaseData Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="98a82cbb-2c51-46c6-a15d-f1a7bf47d4cc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4c5fa9e-49d6-4a98-b94d-79a5ed1d78dd">
+                    <propertyInstance
+                      Id="1d9bd6cd-ba08-41df-83ad-1951e4c4227d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7740164-b419-4a98-86fc-f5ac54fa6327">
+                    <propertyInstance
+                      Id="85c791f2-d24d-4569-953e-175d5a00c032"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9cb3e25d-9b5e-4800-80e4-1e253234d034">
+                    <propertyInstance
+                      Id="03425cba-297b-4d5a-bcb2-b010427e8d6a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4837d674-83ad-4dab-b81c-809758c4d6f3">
+                    <propertyInstance
+                      Id="5edca725-c50b-4352-a7d5-5a5e52677a8b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bedfc46-7a3c-4bad-bcfe-c84624a70031">
+                    <propertyInstance
+                      Id="b8c5ced8-610f-4089-b560-353ed43dd208"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3214437-ae0c-489a-8680-905c78d6ae53">
+                    <propertyInstance
+                      Id="2c8d5ec9-4461-439b-97d4-359dfc07c2d4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
